@@ -25,6 +25,7 @@ declare -A lang_association=(
 								["pl"]="POLISH"
 								["de"]="GERMAN"
 								["tr"]="TURKISH"
+								["he"]="HEBREW"
 							)
 
 #Tools vars
@@ -480,6 +481,7 @@ function language_strings_handling_messages() {
 	language_strings_no_file["POLISH"]="Błąd. Nie znaleziono pliku tłumaczenia"
 	language_strings_no_file["GERMAN"]="Fehler. Die Übersetzungsdatei wurde nicht gefunden"
 	language_strings_no_file["TURKISH"]="Hata. Çeviri dosyası bulunamadı"
+	language_strings_no_file["HEBREW"]="שגיאה. קובץ השפה לא נמצא"
 
 	declare -gA language_strings_file_mismatch
 	language_strings_file_mismatch["ENGLISH"]="Error. The language strings file found mismatches expected version"
@@ -493,6 +495,7 @@ function language_strings_handling_messages() {
 	language_strings_file_mismatch["POLISH"]="Błąd. Znaleziony plik tłumaczenia nie jest oczekiwaną wersją"
 	language_strings_file_mismatch["GERMAN"]="Fehler. Die gefundene Übersetzungsdatei ist nicht die erwartete Version"
 	language_strings_file_mismatch["TURKISH"]="Hata. Bulunan çeviri dosyası beklenen sürüm değil"
+	language_strings_file_mismatch["HEBREW"]="שגיאה. קובץ השפה לא תואם לגרסה"
 
 	declare -gA language_strings_try_to_download
 	language_strings_try_to_download["ENGLISH"]="airgeddon will try to download the language strings file..."
@@ -506,6 +509,7 @@ function language_strings_handling_messages() {
 	language_strings_try_to_download["POLISH"]="airgeddon spróbuje pobrać plik tłumaczeń..."
 	language_strings_try_to_download["GERMAN"]="airgeddon wird versuchen, die Übersetzungsdatei herunterzuladen..."
 	language_strings_try_to_download["TURKISH"]="airgeddon çeviri dosyasını indirmeye çalışacak..."
+	language_strings_try_to_download["HEBREW"]="airgeddon ינסה להוריד את קובץ השפה..."
 
 	declare -gA language_strings_successfully_downloaded
 	language_strings_successfully_downloaded["ENGLISH"]="Language strings file was successfully downloaded"
@@ -519,6 +523,7 @@ function language_strings_handling_messages() {
 	language_strings_successfully_downloaded["POLISH"]="Plik z tłumaczeniem został pomyślnie pobrany"
 	language_strings_successfully_downloaded["GERMAN"]="Die Übersetzungsdatei wurde erfolgreich heruntergeladen"
 	language_strings_successfully_downloaded["TURKISH"]="Çeviri dosyası başarıyla indirildi"
+	language_strings_successfully_downloaded["HEBREW"]="קובץ השפה ירד בהצלחה"
 
 	declare -gA language_strings_failed_downloading
 	language_strings_failed_downloading["ENGLISH"]="The language string file can't be downloaded. Check your internet connection or download it manually from ${normal_color}${urlgithub}"
@@ -532,6 +537,7 @@ function language_strings_handling_messages() {
 	language_strings_failed_downloading["POLISH"]="Nie można pobrać pliku tłumaczenia. Sprawdź połączenie internetowe lub pobierz go ręcznie z ${normal_color}${urlgithub}"
 	language_strings_failed_downloading["GERMAN"]="Die Übersetzungsdatei konnte nicht heruntergeladen werden. Überprüfen Sie Ihre Internetverbindung oder laden Sie sie manuell von ${normal_color}${urlgithub} runter"
 	language_strings_failed_downloading["TURKISH"]="Çeviri dosyası indirilemedi. İnternet bağlantınızı kontrol edin veya manuel olarak indirin ${normal_color}${urlgithub}"
+	language_strings_failed_downloading["HEBREW"]="לא ניתן להוריד את קובץ השפה. נא לבדוק את חיבור האינטרנט או להוריד אותו ידנית מ- ${normal_color}${urlgithub}"
 
 	declare -gA language_strings_first_time
 	language_strings_first_time["ENGLISH"]="If you are seeing this message after an automatic update, don't be scared! It's probably because airgeddon has different file structure since version 6.1. It will be automatically fixed"
@@ -545,6 +551,7 @@ function language_strings_handling_messages() {
 	language_strings_first_time["POLISH"]="Jeśli widzisz tę wiadomość po automatycznej aktualizacji, nie obawiaj się! To prawdopodobnie dlatego, że w wersji 6.1 zmieniła się struktura plików airgeddon. Naprawi się automatycznie"
 	language_strings_first_time["GERMAN"]="Wenn Sie diese Nachricht nach einem automatischen Update sehen, haben Sie keine Angst! Das liegt vermutlich daran, dass ab Version 6.1 die Dateistruktur von airgeddon geändert wurde. Es wird automatisch repariert"
 	language_strings_first_time["TURKISH"]="Otomatik bir güncellemeden sonra bu mesajı görüyorsanız, korkmayın! muhtemelen 6.1 sürümünden itibaren airgeddon dosya yapısı değişmiştir. Otomatik olarak tamir edilecektir"
+	language_strings_first_time["HEBREW"]="אם הודעה זו מוצגת לאחר עדכון אוטומטי, לא לדאוג! כנראה זה בעקבות שינוי מבנה הקובץ של airgeddon החל מגרסה 6.1. זה יתוקן באופן אוטומטי"
 
 	declare -gA language_strings_exiting
 	language_strings_exiting["ENGLISH"]="Exiting airgeddon script v${airgeddon_version} - See you soon! :)"
@@ -558,6 +565,7 @@ function language_strings_handling_messages() {
 	language_strings_exiting["POLISH"]="Wyjście z skryptu airgeddon v${airgeddon_version} - Do zobaczenia wkrótce! :)"
 	language_strings_exiting["GERMAN"]="Sie verlassen airgeddon v${airgeddon_version} - Bis bald! :)"
 	language_strings_exiting["TURKISH"]="airgeddon yazılımından çıkış yapılıyor v${airgeddon_version} - Yakında görüşürüz! :)"
+	language_strings_exiting["HEBREW"]="סקריפט airgeddon v${airgeddon_version} - נתראה בקרוב! :)"
 
 	declare -gA language_strings_key_to_continue
 	language_strings_key_to_continue["ENGLISH"]="Press [Enter] key to continue..."
@@ -571,6 +579,7 @@ function language_strings_handling_messages() {
 	language_strings_key_to_continue["POLISH"]="Naciśnij klawisz [Enter] aby kontynuować..."
 	language_strings_key_to_continue["GERMAN"]="Drücken Sie die [Enter]-Taste um fortzufahren..."
 	language_strings_key_to_continue["TURKISH"]="Devam etmek için [Enter] tuşuna basın..."
+	language_strings_key_to_continue["HEBREW"]="נא להקיש [Enter] כדי להמשיך..."
 }
 
 #Generic toggle option function
@@ -8152,6 +8161,9 @@ function set_captive_portal_language() {
 		;;
 		11)
 			captive_portal_language="TURKISH"
+		;;
+		12)
+			captive_portal_language="HEBREW"
 		;;
 		*)
 			invalid_captive_portal_language_selected
