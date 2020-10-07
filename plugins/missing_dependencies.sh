@@ -252,6 +252,7 @@ function missing_dependencies_text() {
 	arr["POLISH","missing_dependencies_1"]="\${blue_color}Nawet z włączoną opcją \${normal_color}AIRGEDDON_SILENT_CHECKS\${blue_color} airgeddon wykrył przy pomocy wtyczki automatyczne instalacji brakujących zależności. \${green_color}Chcesz przystąpić do automatycznej instalacji? \${normal_color}\${visual_choice}"
 	arr["GERMAN","missing_dependencies_1"]="\${blue_color}Auch wenn die \${normal_color}AIRGEDDON_SILENT_CHECKS\${blue_color} Option aktiviert ist, hat airgeddon bemerkt, dass einige Abhängigkeiten fehlen aufgrund der automatischen Installation fehlenden Abhängigkeiten Plugin. \${green_color}Möchten Sie mit der automatischen Installation fortfahren? \${normal_color}\${visual_choice}"
 	arr["TURKISH","missing_dependencies_1"]="\${normal_color}AIRGEDDON_SILENT_CHECKS\${blue_color} seçeneği etkin olsa bile, airgeddon bağımlılıkları eklentisi eksik nedeniyle otomatik bazı bağımlılıkları eksik olduğunu install algıladı. \${green_color}Otomatik yükleme ile devam etmek istiyor musunuz? \${normal_color}\${visual_choice}"
+	arr["HEBREW","missing_dependencies_1"]="\${blue_color}אפילו כאשר האפשרות \${normal_color}AIRGEDDON_SILENT_CHECKS\${blue_color} מופעלת, airgeddon גילה שחסרות לך כמה תלויות בעקבות שימוש בפלאגין התלויות החסרות. \${green_color}האם ברצונך להמשיך עם ההתקנה האוטומטית? \${normal_color}\${visual_choice}"
 
 	arr["ENGLISH","missing_dependencies_2"]="\${blue_color}Due to the auto install missing dependencies plugin, airgeddon could try to install the necessary missing packages. \${green_color}Do you want to proceed with the automatic installation? \${normal_color}\${visual_choice}"
 	arr["SPANISH","missing_dependencies_2"]="\${blue_color}Debido al plugin de auto instalación de dependencias, airgeddon podría intentar instalar los paquetes necesarios que faltan. \${green_color}¿Quieres proceder con la instalación automática? \${normal_color}\${visual_choice}"
@@ -264,6 +265,7 @@ function missing_dependencies_text() {
 	arr["POLISH","missing_dependencies_2"]="\${blue_color}Z powodu wtyczki automatycznej instalacji zależności airgeddon może spróbować zainstalować niezbędne brakujące pakiety. \${green_color}Chcesz przystąpić do automatycznej instalacji? \${normal_color}\${visual_choice}"
 	arr["GERMAN","missing_dependencies_2"]="\${blue_color}Mit dem Auto-Dependency-Installations-Plugin könnte airgeddon versuchen, die erforderlichen fehlenden Pakete zu installieren. \${green_color}Haben sie mit der automatischen installation fortfahren? \${normal_color}\${visual_choice}"
 	arr["TURKISH","missing_dependencies_2"]="\${blue_color}Otomatik bağımlılık yükleme eklentisi nedeniyle, airgeddon gerekli eksik paketleri kurmayı deneyebilir. \${green_color}Otomatik yükleme ile devam etmek istiyor musunuz? \${normal_color}\${visual_choice}"
+	arr["HEBREW","missing_dependencies_2"]="\${blue_color}בשל השימוש בפלאגין התלויות החסרות של ההתקנה האוטומטית, airgeddon עלול לנסות להתקין את החבילות החסרות. \${green_color}האם ברצונך להמשיך את ההתקנה האוטומטית? \${normal_color}\${visual_choice}"
 
 	arr["ENGLISH","missing_dependencies_3"]="Missing dependencies packages are trying to be installed. Please be patient..."
 	arr["SPANISH","missing_dependencies_3"]="Se está intentando instalar los paquetes de las dependencias que faltaban. Por favor ten paciencia..."
@@ -276,6 +278,7 @@ function missing_dependencies_text() {
 	arr["POLISH","missing_dependencies_3"]="Próbujesz zainstalować pakiety brakujących zależności. Cierpliwości..."
 	arr["GERMAN","missing_dependencies_3"]="Fehlende Pakete Abhängigkeiten werden installiert. Wir bitten um Geduld..."
 	arr["TURKISH","missing_dependencies_3"]="Eksik paket bağımlılıklarını yüklemek için çalışıyoruz. Lütfen sabırlı olun..."
+	arr["HEBREW","missing_dependencies_3"]="מתבצע ניסיון התקנת חבילות של תלויות חסרות. נא להמתין בסבלנות..."
 
 	arr["ENGLISH","missing_dependencies_4"]="Dependencies were successfully installed. Script can continue..."
 	arr["SPANISH","missing_dependencies_4"]="Las dependencias se han instalado correctamente. El script puede continuar..."
@@ -288,6 +291,7 @@ function missing_dependencies_text() {
 	arr["POLISH","missing_dependencies_4"]="Zależności zostały zainstalowane prawidłowo. Skrypt może kontynuować..."
 	arr["GERMAN","missing_dependencies_4"]="Abhängigkeiten werden erfolgreich installiert. Das Skript kann fortfahren..."
 	arr["TURKISH","missing_dependencies_4"]="Bağımlılıklar düzgün bir şekilde yüklendi. Yazılım devam edebilir..."
+	arr["HEBREW","missing_dependencies_4"]="התלויות הותקנו בהצלחה. הסקריפט יכול להמשיך..."
 
 	arr["ENGLISH","missing_dependencies_5"]="An error occurred while trying to install dependencies. This may be due to multiple causes. Make sure your internet connection is working. Anyway, you have installed all essential tools so you can continue. You'll miss only some features"
 	arr["SPANISH","missing_dependencies_5"]="Ocurrió un error al intentar instalar las dependencias. Esto puede ser debido a múltiples causas. Asegúrate de que tu acceso a internet está operativo. De todas formas tienes instaladas las herramientas esenciales así que puedes continuar. Solo no podrás hacer uso de algunas funcionalidades"
@@ -300,6 +304,7 @@ function missing_dependencies_text() {
 	arr["POLISH","missing_dependencies_5"]="Wystąpił błąd podczas próby zainstalowania zależności. Może to być spowodowane wieloma przyczynami. Upewnij się, że połączenie internetowe działa. W każdym razie masz zainstalowane wszystkie niezbędne narzędzia, dzięki czemu można kontynuować. będziesz tęsknił tylko niektóre funkcje"
 	arr["GERMAN","missing_dependencies_5"]="Fehler beim Versuch, Abhängigkeiten zu installieren. Dies kann mehrere Ursachen haben. Stellen Sie sicher, dass Ihre internetverbindung funktioniert. Doch Sie haben alle wichtigen Tools installiert, mit denen Sie fortfahren können. Sie vermissen nur einige Features"
 	arr["TURKISH","missing_dependencies_5"]="Eksik paket bağımlılıklarını yüklemeye çalışırken bir hata oluştu. Bu farklı nedenlere bağlı olabilir. İnternet bağlantısının çalıştığından emin olun. Neyse, tüm gerekli araçları yüklediniz. Yalnızca bazı özellikler eksik"
+	arr["HEBREW","missing_dependencies_5"]="ארעה שגיאה בזמן התקנת התלויות. זה יכול להיגרם ממספר סיבות. נא לוודא שהחיבור לאינטרנט פעיל. בכל מקרה, כל הכלים החיוניים הותקנו, אז ניתן להמשיך. רק יהיו חסרות מספר אפשרויות."
 
 	arr["ENGLISH","missing_dependencies_6"]="An error occurred while trying to install dependencies. This may be due to multiple causes. Make sure your internet connection is working. Script can't continue due the lack of some essential tools"
 	arr["SPANISH","missing_dependencies_6"]="Ocurrió un error al intentar instalar las dependencias. Esto puede ser debido a múltiples causas. Asegúrate de que tu acceso a internet está operativo. El script no puede continuar debido a la falta de algunas herramientas esenciales"
@@ -312,6 +317,7 @@ function missing_dependencies_text() {
 	arr["POLISH","missing_dependencies_6"]="Wystąpił błąd podczas próby zainstalowania zależności. Może to być spowodowane wieloma przyczynami. Upewnij się, czy połączenie internetowe działa. Skrypt nie może kontynuować z powodu braku pewnych podstawowych narzędzi"
 	arr["GERMAN","missing_dependencies_6"]="Fehler beim Versuch, Abhängigkeiten zu installieren. Dies kann mehrere Ursachen haben. Stellen Sie sicher, dass Ihre internetverbindung funktioniert. Script kann wegen des Fehlens einiger wichtiger Tools nicht mehr weitermachen"
 	arr["TURKISH","missing_dependencies_6"]="Eksik paket bağımlılıklarını yüklemeye çalışırken bir hata oluştu. Bu farklı nedenlere bağlı olabilir. İnternet bağlantısının çalıştığından emin olun. Script bazı temel araçların eksikliği nedeniyle devam edemiyor"
+	arr["HEBREW","missing_dependencies_6"]="ארעה שגיאה בזמן התקנת התלויות. זה יכול להיגרם ממספר סיבות. נא לוודא שהחיבור לאינטרנט פעיל. הסקריפט לא יכול להמשיך כיוון שחסרים כלים חיוניים"
 }
 
 #Posthook for check_compatibity function to install missing dependencies
