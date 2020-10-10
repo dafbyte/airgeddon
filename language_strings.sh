@@ -89,6 +89,7 @@ function initialize_language_strings() {
 	under_construction["POLISH"]="w budowie"
 	under_construction["GERMAN"]="im Aufbau"
 	under_construction["TURKISH"]="yapım aşamasında"
+	under_construction["HEBREW"]="בבניה"
 	under_constructionvar="${under_construction[${language}]}"
 
 	declare -gA possible_package_names_text
