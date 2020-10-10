@@ -104,6 +104,7 @@ function initialize_language_strings() {
 	possible_package_names_text["POLISH"]="Możliwa nazwa pakietu"
 	possible_package_names_text["GERMAN"]="Möglicher Paketname"
 	possible_package_names_text["TURKISH"]="Olası paket adı"
+	possible_package_names_text["HEBREW"]="שם חבילה אפשרי"
 
 	declare -gA disabled_text
 	disabled_text["ENGLISH"]="Disabled"
