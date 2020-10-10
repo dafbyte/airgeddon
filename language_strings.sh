@@ -118,6 +118,7 @@ function initialize_language_strings() {
 	disabled_text["POLISH"]="Dezaktywowany"
 	disabled_text["GERMAN"]="Deaktiviert"
 	disabled_text["TURKISH"]="Aktif Değil"
+	disabled_text["HEBREW"]="מושבת"
 
 	declare -gA reboot_required
 	reboot_required["ENGLISH"]="${red_color_slim} (reboot required)${normal_color}"
