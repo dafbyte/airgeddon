@@ -44,6 +44,7 @@ function initialize_language_strings() {
 	unknown_chipset["POLISH"]="Nieznany"
 	unknown_chipset["GERMAN"]="Unbekannt"
 	unknown_chipset["TURKISH"]="Bilinmeyen"
+	unknown_chipset["HEBREW"]="לא ידוע"
 	unknown_chipsetvar="${unknown_chipset[${language}]}"
 
 	declare -A hintprefix
