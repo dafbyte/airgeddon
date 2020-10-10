@@ -59,6 +59,7 @@ function initialize_language_strings() {
 	hintprefix["POLISH"]="Wskazówka"
 	hintprefix["GERMAN"]="Rat"
 	hintprefix["TURKISH"]="İpucu"
+	hintprefix["HEBREW"]="רמז"
 	hintvar="*${hintprefix[${language}]}*"
 	escaped_hintvar="\*${hintprefix[${language}]}\*"
 
