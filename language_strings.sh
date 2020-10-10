@@ -146,6 +146,7 @@ function initialize_language_strings() {
 	docker_image["POLISH"]="${pending_of_translation} Na podstawie obrazu ArchStrike Docker"
 	docker_image["GERMAN"]="Auf dem ArchStrike Docker-Image"
 	docker_image["TURKISH"]="ArchStrike Docker image tabanlı"
+	docker_image["HEBREW"]="מבוסס אימג' ArchStrike Docker"
 
 	declare -gA et_misc_texts
 	et_misc_texts["ENGLISH",0]="Evil Twin AP Info"
