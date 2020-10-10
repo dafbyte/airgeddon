@@ -160,6 +160,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",0]="Informacja Evil Twin AP"
 	et_misc_texts["GERMAN",0]="Information über Evil Twin AP"
 	et_misc_texts["TURKISH",0]="Şeytani İkiz"
+	et_misc_texts["HEBREW",0]="מידע על Evil Twin AP"
 
 	et_misc_texts["ENGLISH",1]="Channel"
 	et_misc_texts["SPANISH",1]="Canal"
@@ -172,6 +173,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",1]="Kanał"
 	et_misc_texts["GERMAN",1]="Kanal"
 	et_misc_texts["TURKISH",1]="Kanal"
+	et_misc_texts["HEBREW",1]="ערוץ"
 
 	et_misc_texts["ENGLISH",2]="Online time"
 	et_misc_texts["SPANISH",2]="Tiempo online"
@@ -184,6 +186,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",2]="Czas online"
 	et_misc_texts["GERMAN",2]="Zeit online"
 	et_misc_texts["TURKISH",2]="Çevrimiçi zaman"
+	et_misc_texts["HEBREW",2]="זמן מקוון"
 
 	et_misc_texts["ENGLISH",3]="DHCP ips given to possible connected clients"
 	et_misc_texts["SPANISH",3]="Ips entregadas por DHCP a posibles clientes conectados"
@@ -196,6 +199,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",3]="Adresy IP przydzielane przez DHCP do połączonych potencjalnych klientów"
 	et_misc_texts["GERMAN",3]="Ips durch DHCP an mögliche verbundene Clients geliefert"
 	et_misc_texts["TURKISH",3]="Olası bağlanmış istemcilere verilen DHCP IPler"
+	et_misc_texts["HEBREW",3]="כתובות IP של DHCP שניתנו למשתמשים מחוברים אפשריים"
 
 	et_misc_texts["ENGLISH",4]="On this attack you have to use an external sniffer to try to obtain client passwords connected to the network"
 	et_misc_texts["SPANISH",4]="Con este ataque has de usar un sniffer externo para intentar obtener contraseñas de los clientes conectados a la red"
@@ -208,6 +212,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",4]="W tym ataku musisz użyć zewnętrznego sniffera, aby spróbować uzyskać hasła od klientów podłączonych do sieci"
 	et_misc_texts["GERMAN",4]="Mit diesem Angriff ist ein externer Sniffer erforderlich um Passwörter von am Netzwerk verbundene clients zu stehlen"
 	et_misc_texts["TURKISH",4]="Bu saldırı sonucunda ağa bağlı client şifrelerini edinmek için harici bir algılayıcı kullanmanız gerekir"
+	et_misc_texts["HEBREW",4]="בהתקפה זו, עליך להשתמש בסניפר חיצוני כדי להשיג סיסמאות משתמשים המחוברים לאינטרנט"
 
 	et_misc_texts["ENGLISH",5]="On this attack, watch the sniffer's screen to see if a password appears"
 	et_misc_texts["SPANISH",5]="Con este ataque, estate atento a la pantalla del sniffer para ver si aparece alguna contraseña"
@@ -220,6 +225,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",5]="Podczas tego ataku obserwuj ekran sniffera, aby zobaczyć, czy pojawia się hasło"
 	et_misc_texts["GERMAN",5]="Schau mit diesem Angriff ans Bildschirm ob ein Passwort erscheint"
 	et_misc_texts["TURKISH",5]="Bu saldırı ile algılayıcının ekranını görebilir ve şifre çıktığında şifreyi görebilirsiniz"
+	et_misc_texts["HEBREW",5]="בהתקפה זו, ניתן לצפות במסך הסניפר כדי לראות אם הסיסמה מופיעה"
 
 	et_misc_texts["ENGLISH",6]="On this attack, we'll wait for a network client to provide us the password for the wifi network in our captive portal"
 	et_misc_texts["SPANISH",6]="Con este ataque, esperaremos a que un cliente de la red nos provea de la contraseña de la red wifi en nuestro portal cautivo"
@@ -232,6 +238,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",6]="W tym ataku poczekamy na klienta sieci aż poda nam hasło do sieci wifi na naszej stronie captive portal"
 	et_misc_texts["GERMAN",6]="Mit diesem Angriff warten wir bis ein client im Netzwerk uns das Passwort des WLANs in unserer Vorschaltseite übergibt"
 	et_misc_texts["TURKISH",6]="Bu saldırı ile, şifrenin doğru bir şekilde esaret portalımıza giriş yapılmasını bekleyeceğiz"
+	et_misc_texts["HEBREW",6]="בהתקפה זו, נמתין שמשתמש ברשת יספק לנו את סיסמת ה- wifi ב- captive portal שלנו"
 
 	et_misc_texts["ENGLISH",7]="No clients connected yet"
 	et_misc_texts["SPANISH",7]="No hay clientes conectados aún"
@@ -244,6 +251,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",7]="Nie ma jeszcze żadnych podłączonych klientów"
 	et_misc_texts["GERMAN",7]="Keine clients bisher verbunden"
 	et_misc_texts["TURKISH",7]="Henüz hiçbir alıcı bağlanmadı"
+	et_misc_texts["HEBREW",7]="אין משתמשים מחוברים עדיין"
 
 	et_misc_texts["ENGLISH",8]="airgeddon. Evil Twin attack captured passwords"
 	et_misc_texts["SPANISH",8]="airgeddon. Contraseñas capturadas en ataque Evil Twin"
@@ -256,6 +264,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",8]="airgeddon. Hasła przechwycone podczas ataku Evil Twin"
 	et_misc_texts["GERMAN",8]="airgeddon. Passwörter im Evil Twin-Angriff erfassen"
 	et_misc_texts["TURKISH",8]="airgeddon. Şeytani İkiz şifreleri yakaladı"
+	et_misc_texts["HEBREW",8]="airgeddon. סיסמאות שנתפסו במתקפת Evil Twin"
 
 	et_misc_texts["ENGLISH",9]="Wireless network, ESSID:"
 	et_misc_texts["SPANISH",9]="Red inalámbrica, ESSID:"
@@ -268,6 +277,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",9]="Sieć bezprzewodowa, ESSID:"
 	et_misc_texts["GERMAN",9]="WLAN, ESSID:"
 	et_misc_texts["TURKISH",9]="Kablosuz ağ, ESSID:"
+	et_misc_texts["HEBREW",9]="רשת אלחוטית, ESSID:"
 
 	et_misc_texts["ENGLISH",10]="Enter your wireless network password to get internet access"
 	et_misc_texts["SPANISH",10]="Introduzca su contraseña de acceso a la red inalámbrica para poder acceder a internet"
@@ -280,6 +290,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",10]="Wprowadź hasło do sieci bezprzewodowej, aby uzyskać dostęp do internetu"
 	et_misc_texts["GERMAN",10]="Schreiben Sie ihr WLAN-Passwort für Internetzugang"
 	et_misc_texts["TURKISH",10]="İnternete bağlanabilmek için kablosuz ağ şifrenizi girmelisiniz"
+	et_misc_texts["HEBREW",10]="נא להקיש את סיסמת הרשת האלחוטית כדי להתחבר לאינטרנט"
 
 	et_misc_texts["ENGLISH",11]="Password"
 	et_misc_texts["SPANISH",11]="Contraseña"
@@ -292,6 +303,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",11]="Hasło"
 	et_misc_texts["GERMAN",11]="Passwort"
 	et_misc_texts["TURKISH",11]="Şifre"
+	et_misc_texts["HEBREW",11]="סיסמה"
 
 	et_misc_texts["ENGLISH",12]="Show password"
 	et_misc_texts["SPANISH",12]="Mostrar contraseña"
@@ -304,6 +316,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",12]="Pokaż hasło"
 	et_misc_texts["GERMAN",12]="Passwort zeigen"
 	et_misc_texts["TURKISH",12]="Şifreyi göster"
+	et_misc_texts["HEBREW",12]="הצגת סיסמה"
 
 	et_misc_texts["ENGLISH",13]="Submit"
 	et_misc_texts["SPANISH",13]="Enviar"
@@ -316,6 +329,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",13]="Wyślij"
 	et_misc_texts["GERMAN",13]="Schicken"
 	et_misc_texts["TURKISH",13]="Gönder"
+	et_misc_texts["TURKISH",13]="שליחה"
 
 	et_misc_texts["ENGLISH",14]="An unexpected error occurred, redirecting to the main screen"
 	et_misc_texts["SPANISH",14]="Ha ocurrido un error inesperado, redirigiendo a la pantalla principal"
@@ -328,6 +342,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",14]="Wystąpił nieoczekiwany błąd, zostaniesz przekierowany do ekranu głównego"
 	et_misc_texts["GERMAN",14]="Ein Fehler ist aufgetreten, Sie werden zur Homepage weitergeleitet"
 	et_misc_texts["TURKISH",14]="Beklenmeyen bir hata oluştu, anasayfaya yönlendiriliyorsunuz"
+	et_misc_texts["HEBREW",14]="ארעה שגיאה לא צפויה, מתבצעת הפניה למסך הראשי"
 
 	et_misc_texts["ENGLISH",15]="Internet Portal"
 	et_misc_texts["SPANISH",15]="Portal de Internet"
@@ -340,6 +355,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",15]="Portal internetowy"
 	et_misc_texts["GERMAN",15]="Internet Portal"
 	et_misc_texts["TURKISH",15]="İnternet Portalı"
+	et_misc_texts["HEBREW",15]="פורטל אינטרנט"
 
 	et_misc_texts["ENGLISH",16]="The password must be at least 8 characters"
 	et_misc_texts["SPANISH",16]="La contraseña debe tener al menos 8 caracteres"
@@ -352,6 +368,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",16]="Hasło musi mieć długość co najmniej 8 znaków"
 	et_misc_texts["GERMAN",16]="Das Passwort muss mindestens 8 Zeichen lang sein"
 	et_misc_texts["TURKISH",16]="Şifre en az 8 karakter olmalıdır"
+	et_misc_texts["HEBREW",16]="הסיסמה צריך להיות באורך 8 תווים לפחות"
 
 	et_misc_texts["ENGLISH",17]="The password is incorrect, redirecting to the main screen"
 	et_misc_texts["SPANISH",17]="La contraseña introducida es incorrecta, redirigiendo a la pantalla principal"
@@ -364,6 +381,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",17]="Wprowadzone hasło jest niepoprawne, zostaniesz przekierowany do ekranu głównego"
 	et_misc_texts["GERMAN",17]="Das eingegebene Passwort ist falsch, Sie werden zur Homepage weitergeleitet"
 	et_misc_texts["TURKISH",17]="Şifre yanlış, anasayfaya yönlendiriliyorsunuz"
+	et_misc_texts["HEBREW",17]="הסיסמה שגויה, מתבצעת הפניה למסך הראשי"
 
 	et_misc_texts["ENGLISH",18]="The password is correct, the connection will be restablished in a few moments"
 	et_misc_texts["SPANISH",18]="La contraseña es correcta, la conexión se restablecerá en unos momentos"
@@ -376,6 +394,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",18]="Hasło jest prawidłowe, połączenie zostanie przywrócone za chwilę"
 	et_misc_texts["GERMAN",18]="Das Passwort ist richtig, die Verbindung wird in kurzer Zeit wiederhergestellt"
 	et_misc_texts["TURKISH",18]="Şifre doğru, bağlantınız bir kaç dakika içerisinde yeniden gerçekleşecektir"
+	et_misc_texts["HEBREW",18]="הסיסמה נכונה, החיבור יחודש בעוד מספר רגעים"
 
 	et_misc_texts["ENGLISH",19]="airgeddon. Captive portal Evil Twin attack captured password"
 	et_misc_texts["SPANISH",19]="airgeddon. Contraseña capturada en el portal cautivo del ataque Evil Twin"
@@ -388,6 +407,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",19]="airgeddon. Hasło przechwycone podczas ataku captive portal Evil Twin"
 	et_misc_texts["GERMAN",19]="airgeddon. Passwort im Evil Twin Captive Portal gefangen"
 	et_misc_texts["TURKISH",19]="airgeddon. Esaret Portalı Şeytani ikizi şifreyi yakaladı"
+	et_misc_texts["HEBREW",19]="airgeddon. סיסמאות שנתפסו במתקפת Captive portal Evil Twin"
 
 	et_misc_texts["ENGLISH",20]="Attempts"
 	et_misc_texts["SPANISH",20]="Intentos"
@@ -400,6 +420,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",20]="Próby"
 	et_misc_texts["GERMAN",20]="Versuche"
 	et_misc_texts["TURKISH",20]="Denemeler"
+	et_misc_texts["HEBREW",20]="ניסיונות"
 
 	et_misc_texts["ENGLISH",21]="last password:"
 	et_misc_texts["SPANISH",21]="última contraseña:"
@@ -412,6 +433,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",21]="ostatnie hasło:"
 	et_misc_texts["GERMAN",21]="letzte Passwort:"
 	et_misc_texts["TURKISH",21]="son şifre:"
+	et_misc_texts["HEBREW",21]="סיסמה אחרונה:"
 
 	et_misc_texts["ENGLISH",22]="Captured passwords on failed attemps"
 	et_misc_texts["SPANISH",22]="Contraseñas capturadas en intentos fallidos"
@@ -424,6 +446,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",22]="Hasła przechwycone podczas nieudanych prób"
 	et_misc_texts["GERMAN",22]="Gefangene Passwörter in Fehlversuche"
 	et_misc_texts["TURKISH",22]="Başarısız girişimlerde yakalanan şifreler"
+	et_misc_texts["HEBREW",22]="סיסמאות שנתפסו בניסיונות כושלים"
 
 	et_misc_texts["ENGLISH",23]="Password captured successfully"
 	et_misc_texts["SPANISH",23]="Contraseña capturada con éxito"
@@ -436,6 +459,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",23]="Hasło zostało pomyślnie przechwycone"
 	et_misc_texts["GERMAN",23]="Passwörter erfolgreich gefangen"
 	et_misc_texts["TURKISH",23]="Şifre başarıyla yakalandı"
+	et_misc_texts["HEBREW",23]="הסיסמה נתפסה בהצלחה"
 
 	et_misc_texts["ENGLISH",24]="The password was saved on file"
 	et_misc_texts["SPANISH",24]="La contraseña se ha guardado en el fichero"
@@ -448,6 +472,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",24]="Hasło zostało zapisane do pliku"
 	et_misc_texts["GERMAN",24]="Das Passwort wurde in der Datei gespeichert"
 	et_misc_texts["TURKISH",24]="Şifre dosyaya kaydedildi"
+	et_misc_texts["HEBREW",24]="הסיסמה נשמרה בקובץ"
 
 	et_misc_texts["ENGLISH",25]="Press [Enter] on the main script window to continue, this window will be closed"
 	et_misc_texts["SPANISH",25]="Pulsa [Enter] en la ventana principal del script para continuar, esta ventana se cerrará"
@@ -460,6 +485,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",25]="Wciśnij [Enter] w oknie głównym skryptu aby kontynuować, to okno zostanie zamknięte"
 	et_misc_texts["GERMAN",25]="Drücken Sie [Enter] im Hauptfenster um fortzufahren, dieses Fenster wird geschlossen"
 	et_misc_texts["TURKISH",25]="Devam etmek için [Enter] tuşuna basınız, bu sayfa kapatılacaktır"
+	et_misc_texts["HEBREW",25]="יש להקיש [Enter] בחלון הסקריפט הראשי כדי להמשיך, חלון זה ייסדר"
 
 	et_misc_texts["ENGLISH",26]="Error. The password must be at least 8 characters. Redirecting to the main screen"
 	et_misc_texts["SPANISH",26]="Error. La contraseña debe tener al menos 8 caracteres. Redirigiendo a la pantalla principal"
@@ -472,6 +498,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",26]="Błąd. Hasło musi mieć co najmniej 8 znaków. Przekierowywanie do ekranu głównego"
 	et_misc_texts["GERMAN",26]="Fehler. Das Passwort muss mindestens 8 Zeichen lang sein. Zur Homepage weitergeleitet"
 	et_misc_texts["TURKISH",26]="Hata. Şifre en az 8 karakter olmalıdır. Anasayfaya yönlendiriliyorsunuz"
+	et_misc_texts["HEBREW",26]="שגיאה. הסיסמה צריכה להיות לפחות באורך 8 תווים. מפנה למסך הראשי"
 
 	et_misc_texts["ENGLISH",27]="This attack has two parts. Watch the sniffer's screen to see if a password appears. You can also open BeEF control panel at ${white_color}${beef_control_panel_url}${pink_color} , log in (user: ${white_color}beef${pink_color} / pass: ${white_color}${beef_pass}${pink_color}) and try to control the clients browser"
 	et_misc_texts["SPANISH",27]="Este ataque tiene dos partes. Estate atento a la pantalla del sniffer para ver si aparece alguna contraseña. También puedes abrir el panel de control de BeEF en ${white_color}${beef_control_panel_url}${pink_color} , hacer login (user: ${white_color}beef${pink_color} / pass: ${white_color}${beef_pass}${pink_color}) e intentar controlar el navegador de los clientes"
@@ -484,6 +511,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",27]="Ten atak ma dwie części. Obserwuj ekran sniffera aby sprawdzić, czy pojawia się hasło. Możesz także otworzyć panel sterowania BeEF w ${white_color}${beef_control_panel_url}${pink_color} , zaloguj się (użytkownik: ${white_color}beef${pink_color} / hasło: ${white_color}${beef_pass}${pink_color}) i spróbuj kontrolować przeglądarkę klientów"
 	et_misc_texts["GERMAN",27]="Dieser Angriff besteht aus zwei Teilen. Bleiben Sie auf dem Sniffer-Bildschirm, um zu sehen, ob ein Passwort erscheint. Sie können auch das BeEF-Kontrollfeld in ${white_color}${beef_control_panel_url}${pink_color} öffnen, login (Benutzer: ${white_color}beef${pink_color} / pass: ${white_color}${beef_pass}${pink_color}) und versuchen den Browser des Clients zu kontrollieren"
 	et_misc_texts["TURKISH",27]="Bu saldırı iki parçadan oluşur. Sniffer ekranını şifre görünene kadar izleyin. Ayrıca BeEF kontrol panelini açabilir ${white_color}${beef_control_panel_url}${pink_color} , log in (user: ${white_color}beef${pink_color} / pass: ${white_color}${beef_pass}${pink_color}) ve kontrol edebilirsiniz"
+	et_misc_texts["HEBREW",27]="למתקפה זו שני חלקים. חלון הסניפר יראה אם הסיסמה מופיעה. ניתן גם לפתוח את לוח הבקרה של BeEF ב- ${white_color}${beef_control_panel_url}${pink_color} , כניסה (משתמש: ${white_color}beef${pink_color} / סיסמה: ${white_color}${beef_pass}${pink_color}) ולנסות להשתלט על דפדפן המשתמש"
 
 	declare -gA wps_texts
 	wps_texts["ENGLISH",1]="airgeddon. Decrypted password during WPS attack"
