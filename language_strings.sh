@@ -132,6 +132,7 @@ function initialize_language_strings() {
 	reboot_required["POLISH"]="${red_color_slim} (wymagane ponowne uruchomienie)${normal_color}"
 	reboot_required["GERMAN"]="${red_color_slim} (Neustart erforderlich)${normal_color}"
 	reboot_required["TURKISH"]="${red_color_slim} (yeniden başlatma gerekli)${normal_color}"
+	reboot_required["HEBREW"]="${red_color_slim} (יש צורך באתחול)${normal_color}"
 
 	declare -gA docker_image
 	docker_image["ENGLISH"]="ArchStrike Docker image based"
