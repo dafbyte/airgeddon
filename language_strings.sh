@@ -710,7 +710,7 @@ function initialize_language_strings() {
 	jtr_texts["POLISH",2]="Użytkownik enterprise"
 	jtr_texts["GERMAN",2]="Enterprise-Benutzername"
 	jtr_texts["TURKISH",2]="Enterprise kullanıcı"
-	jtr_texts["HEBREW",2]="משתמש enterprise"
+	jtr_texts["HEBREW",2]="משתמש ארגוני"
 
 	jtr_texts["ENGLISH",3]="Enterprise users and passwords"
 	jtr_texts["SPANISH",3]="Usuarios y contraseñas enterprise"
@@ -723,7 +723,7 @@ function initialize_language_strings() {
 	jtr_texts["POLISH",3]="Użytkownicy i hasła enterprise"
 	jtr_texts["GERMAN",3]="Enterprise-Benutzernamen und Kennwörter"
 	jtr_texts["TURKISH",3]="Enterprise kullanıcılar ve şifreler"
-	jtr_texts["HEBREW",3]="משתמשי וסיסמאות enterprise"
+	jtr_texts["HEBREW",3]="משתמשים וסיסמאות ארגוניים"
 
 	declare -gA hashcat_texts
 	hashcat_texts["ENGLISH",1]="airgeddon. Decrypted password using hashcat"
@@ -750,7 +750,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",2]="Użytkownik enterprise"
 	hashcat_texts["GERMAN",2]="Enterprise-Benutzername"
 	hashcat_texts["TURKISH",2]="Enterprise kullanıcı"
-	hashcat_texts["HEBREW",2]="משתמש enterprise"
+	hashcat_texts["HEBREW",2]="משתמש ארגוני"
 
 	hashcat_texts["ENGLISH",3]="Enterprise users and passwords"
 	hashcat_texts["SPANISH",3]="Usuarios y contraseñas enterprise"
@@ -763,7 +763,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",3]="Użytkownicy i hasła enterprise"
 	hashcat_texts["GERMAN",3]="Enterprise-Benutzernamen und Kennwörter"
 	hashcat_texts["TURKISH",3]="Enterprise kullanıcılar ve şifreler"
-	hashcat_texts["HEBREW",3]="משתמשי וסיסמאות enterprise"
+	hashcat_texts["HEBREW",3]="משתמשים וסיסמאות ארגוניים"
 
 	hashcat_texts["ENGLISH",4]="PMKID password"
 	hashcat_texts["SPANISH",4]="Contraseña PMKID"
