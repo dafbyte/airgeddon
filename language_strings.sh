@@ -790,6 +790,7 @@ function initialize_language_strings() {
 	aircrack_texts["POLISH",1]="airgeddon. Hasło odszyfrowane z użyciem aircrack"
 	aircrack_texts["GERMAN",1]="airgeddon. Passwort mit aircrack entschlüsselt"
 	aircrack_texts["TURKISH",1]="airgeddon. Aircrack kullanarak şifreyi çözdü"
+	aircrack_texts["HEBREW",1]="airgeddon. הסיסמה פוענחה באמצעות aircrack"
 
 	declare -gA enterprise_texts
 	enterprise_texts["ENGLISH",0]="Enterprise Evil Twin AP Info"
