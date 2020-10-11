@@ -737,6 +737,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",1]="airgeddon. Hasło odszyfrowane z użyciem hashcat"
 	hashcat_texts["GERMAN",1]="airgeddon. Passwort mit hashcat entschlüsselt"
 	hashcat_texts["TURKISH",1]="airgeddon. Hashcat kullanarak şifreyi çözdü"
+	hashcat_texts["HEBREW",1]="airgeddon. הסיסמה פוענחה באמצעות hashcat"
 
 	hashcat_texts["ENGLISH",2]="Enterprise user"
 	hashcat_texts["SPANISH",2]="Usuario enterprise"
@@ -749,6 +750,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",2]="Użytkownik enterprise"
 	hashcat_texts["GERMAN",2]="Enterprise-Benutzername"
 	hashcat_texts["TURKISH",2]="Enterprise kullanıcı"
+	hashcat_texts["HEBREW",2]="משתמש enterprise"
 
 	hashcat_texts["ENGLISH",3]="Enterprise users and passwords"
 	hashcat_texts["SPANISH",3]="Usuarios y contraseñas enterprise"
@@ -761,6 +763,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",3]="Użytkownicy i hasła enterprise"
 	hashcat_texts["GERMAN",3]="Enterprise-Benutzernamen und Kennwörter"
 	hashcat_texts["TURKISH",3]="Enterprise kullanıcılar ve şifreler"
+	hashcat_texts["HEBREW",3]="משתמשי וסיסמאות enterprise"
 
 	hashcat_texts["ENGLISH",4]="PMKID password"
 	hashcat_texts["SPANISH",4]="Contraseña PMKID"
@@ -773,6 +776,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",4]="Hasło PMKID"
 	hashcat_texts["GERMAN",4]="PMKID-Passwort"
 	hashcat_texts["TURKISH",4]="PMKID şifresi"
+	hashcat_texts["HEBREW",4]="סיסמת PMKID"
 
 	declare -gA aircrack_texts
 	aircrack_texts["ENGLISH",1]="airgeddon. Decrypted password using aircrack"
