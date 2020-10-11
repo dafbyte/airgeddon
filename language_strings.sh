@@ -657,6 +657,7 @@ function initialize_language_strings() {
 	asleap_texts["POLISH",1]="airgeddon. Hasło odszyfrowane z użyciem asleap"
 	asleap_texts["GERMAN",1]="airgeddon. Passwort mit asleap entschlüsselt"
 	asleap_texts["TURKISH",1]="airgeddon. asleap kullanarak şifreyi çözdü"
+	asleap_texts["HEBREW",1]="airgeddon. הסיסמה פוענחה באמצעות asleap"
 
 	asleap_texts["ENGLISH",2]="Challenge"
 	asleap_texts["SPANISH",2]="Challenge"
@@ -669,6 +670,7 @@ function initialize_language_strings() {
 	asleap_texts["POLISH",2]="Challenge"
 	asleap_texts["GERMAN",2]="Challenge"
 	asleap_texts["TURKISH",2]="Challenge"
+	asleap_texts["HEBREW",2]="אתגר"
 
 	asleap_texts["ENGLISH",3]="Response"
 	asleap_texts["SPANISH",3]="Response"
@@ -681,6 +683,7 @@ function initialize_language_strings() {
 	asleap_texts["POLISH",3]="Odpowiedź"
 	asleap_texts["GERMAN",3]="Response"
 	asleap_texts["TURKISH",3]="Yanıt"
+	asleap_texts["HEBREW",3]="תגובה"
 
 	declare -gA jtr_texts
 	jtr_texts["ENGLISH",1]="airgeddon. Decrypted password using john the ripper"
