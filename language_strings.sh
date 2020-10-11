@@ -697,6 +697,7 @@ function initialize_language_strings() {
 	jtr_texts["POLISH",1]="airgeddon. Hasło odszyfrowane z użyciem john the ripper"
 	jtr_texts["GERMAN",1]="airgeddon. Passwort mit john the ripper entschlüsselt"
 	jtr_texts["TURKISH",1]="airgeddon. John the ripper kullanarak şifreyi çözdü"
+	jtr_texts["HEBREW",1]="airgeddon. הסיסמה פוענחה באמצעות john the ripper"
 
 	jtr_texts["ENGLISH",2]="Enterprise user"
 	jtr_texts["SPANISH",2]="Usuario enterprise"
@@ -709,6 +710,7 @@ function initialize_language_strings() {
 	jtr_texts["POLISH",2]="Użytkownik enterprise"
 	jtr_texts["GERMAN",2]="Enterprise-Benutzername"
 	jtr_texts["TURKISH",2]="Enterprise kullanıcı"
+	jtr_texts["HEBREW",2]="משתמש enterprise"
 
 	jtr_texts["ENGLISH",3]="Enterprise users and passwords"
 	jtr_texts["SPANISH",3]="Usuarios y contraseñas enterprise"
@@ -721,6 +723,7 @@ function initialize_language_strings() {
 	jtr_texts["POLISH",3]="Użytkownicy i hasła enterprise"
 	jtr_texts["GERMAN",3]="Enterprise-Benutzernamen und Kennwörter"
 	jtr_texts["TURKISH",3]="Enterprise kullanıcılar ve şifreler"
+	jtr_texts["HEBREW",3]="משתמשי וסיסמאות enterprise"
 
 	declare -gA hashcat_texts
 	hashcat_texts["ENGLISH",1]="airgeddon. Decrypted password using hashcat"
