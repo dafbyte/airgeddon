@@ -329,7 +329,7 @@ function initialize_language_strings() {
 	et_misc_texts["POLISH",13]="Wyślij"
 	et_misc_texts["GERMAN",13]="Schicken"
 	et_misc_texts["TURKISH",13]="Gönder"
-	et_misc_texts["TURKISH",13]="שליחה"
+	et_misc_texts["HEBREW",13]="שליחה"
 
 	et_misc_texts["ENGLISH",14]="An unexpected error occurred, redirecting to the main screen"
 	et_misc_texts["SPANISH",14]="Ha ocurrido un error inesperado, redirigiendo a la pantalla principal"
