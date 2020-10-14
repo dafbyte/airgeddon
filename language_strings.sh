@@ -657,6 +657,7 @@ function initialize_language_strings() {
 	asleap_texts["POLISH",1]="airgeddon. Hasło odszyfrowane z użyciem asleap"
 	asleap_texts["GERMAN",1]="airgeddon. Passwort mit asleap entschlüsselt"
 	asleap_texts["TURKISH",1]="airgeddon. asleap kullanarak şifreyi çözdü"
+	asleap_texts["HEBREW",1]="airgeddon. הסיסמה פוענחה באמצעות asleap"
 
 	asleap_texts["ENGLISH",2]="Challenge"
 	asleap_texts["SPANISH",2]="Challenge"
@@ -669,6 +670,7 @@ function initialize_language_strings() {
 	asleap_texts["POLISH",2]="Challenge"
 	asleap_texts["GERMAN",2]="Challenge"
 	asleap_texts["TURKISH",2]="Challenge"
+	asleap_texts["HEBREW",2]="אתגר"
 
 	asleap_texts["ENGLISH",3]="Response"
 	asleap_texts["SPANISH",3]="Response"
@@ -681,6 +683,7 @@ function initialize_language_strings() {
 	asleap_texts["POLISH",3]="Odpowiedź"
 	asleap_texts["GERMAN",3]="Response"
 	asleap_texts["TURKISH",3]="Yanıt"
+	asleap_texts["HEBREW",3]="תגובה"
 
 	declare -gA jtr_texts
 	jtr_texts["ENGLISH",1]="airgeddon. Decrypted password using john the ripper"
@@ -694,6 +697,7 @@ function initialize_language_strings() {
 	jtr_texts["POLISH",1]="airgeddon. Hasło odszyfrowane z użyciem john the ripper"
 	jtr_texts["GERMAN",1]="airgeddon. Passwort mit john the ripper entschlüsselt"
 	jtr_texts["TURKISH",1]="airgeddon. John the ripper kullanarak şifreyi çözdü"
+	jtr_texts["HEBREW",1]="airgeddon. הסיסמה פוענחה באמצעות john the ripper"
 
 	jtr_texts["ENGLISH",2]="Enterprise user"
 	jtr_texts["SPANISH",2]="Usuario enterprise"
@@ -706,6 +710,7 @@ function initialize_language_strings() {
 	jtr_texts["POLISH",2]="Użytkownik enterprise"
 	jtr_texts["GERMAN",2]="Enterprise-Benutzername"
 	jtr_texts["TURKISH",2]="Enterprise kullanıcı"
+	jtr_texts["HEBREW",2]="משתמש ארגוני"
 
 	jtr_texts["ENGLISH",3]="Enterprise users and passwords"
 	jtr_texts["SPANISH",3]="Usuarios y contraseñas enterprise"
@@ -718,6 +723,7 @@ function initialize_language_strings() {
 	jtr_texts["POLISH",3]="Użytkownicy i hasła enterprise"
 	jtr_texts["GERMAN",3]="Enterprise-Benutzernamen und Kennwörter"
 	jtr_texts["TURKISH",3]="Enterprise kullanıcılar ve şifreler"
+	jtr_texts["HEBREW",3]="משתמשים וסיסמאות ארגוניים"
 
 	declare -gA hashcat_texts
 	hashcat_texts["ENGLISH",1]="airgeddon. Decrypted password using hashcat"
@@ -731,6 +737,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",1]="airgeddon. Hasło odszyfrowane z użyciem hashcat"
 	hashcat_texts["GERMAN",1]="airgeddon. Passwort mit hashcat entschlüsselt"
 	hashcat_texts["TURKISH",1]="airgeddon. Hashcat kullanarak şifreyi çözdü"
+	hashcat_texts["HEBREW",1]="airgeddon. הסיסמה פוענחה באמצעות hashcat"
 
 	hashcat_texts["ENGLISH",2]="Enterprise user"
 	hashcat_texts["SPANISH",2]="Usuario enterprise"
@@ -743,6 +750,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",2]="Użytkownik enterprise"
 	hashcat_texts["GERMAN",2]="Enterprise-Benutzername"
 	hashcat_texts["TURKISH",2]="Enterprise kullanıcı"
+	hashcat_texts["HEBREW",2]="משתמש ארגוני"
 
 	hashcat_texts["ENGLISH",3]="Enterprise users and passwords"
 	hashcat_texts["SPANISH",3]="Usuarios y contraseñas enterprise"
@@ -755,6 +763,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",3]="Użytkownicy i hasła enterprise"
 	hashcat_texts["GERMAN",3]="Enterprise-Benutzernamen und Kennwörter"
 	hashcat_texts["TURKISH",3]="Enterprise kullanıcılar ve şifreler"
+	hashcat_texts["HEBREW",3]="משתמשים וסיסמאות ארגוניים"
 
 	hashcat_texts["ENGLISH",4]="PMKID password"
 	hashcat_texts["SPANISH",4]="Contraseña PMKID"
@@ -767,6 +776,7 @@ function initialize_language_strings() {
 	hashcat_texts["POLISH",4]="Hasło PMKID"
 	hashcat_texts["GERMAN",4]="PMKID-Passwort"
 	hashcat_texts["TURKISH",4]="PMKID şifresi"
+	hashcat_texts["HEBREW",4]="סיסמת PMKID"
 
 	declare -gA aircrack_texts
 	aircrack_texts["ENGLISH",1]="airgeddon. Decrypted password using aircrack"
@@ -780,6 +790,7 @@ function initialize_language_strings() {
 	aircrack_texts["POLISH",1]="airgeddon. Hasło odszyfrowane z użyciem aircrack"
 	aircrack_texts["GERMAN",1]="airgeddon. Passwort mit aircrack entschlüsselt"
 	aircrack_texts["TURKISH",1]="airgeddon. Aircrack kullanarak şifreyi çözdü"
+	aircrack_texts["HEBREW",1]="airgeddon. הסיסמה פוענחה באמצעות aircrack"
 
 	declare -gA enterprise_texts
 	enterprise_texts["ENGLISH",0]="Enterprise Evil Twin AP Info"
@@ -793,6 +804,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",0]="Informacja o Evil Twin Enterprise AP"
 	enterprise_texts["GERMAN",0]="Information über Evil Twin Enterprise AP"
 	enterprise_texts["TURKISH",0]="Enterprise Şeytani İkiz AP Bilgisi"
+	enterprise_texts["HEBREW",0]="מידע על Enterprise Evil Twin AP"
 
 	enterprise_texts["ENGLISH",1]="Channel"
 	enterprise_texts["SPANISH",1]="Canal"
@@ -805,6 +817,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",1]="Kanał"
 	enterprise_texts["GERMAN",1]="Kanal"
 	enterprise_texts["TURKISH",1]="Kanal"
+	enterprise_texts["HEBREW",1]="ערוץ"
 
 	enterprise_texts["ENGLISH",2]="Online time"
 	enterprise_texts["SPANISH",2]="Tiempo online"
@@ -817,6 +830,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",2]="Czas online"
 	enterprise_texts["GERMAN",2]="Zeit online"
 	enterprise_texts["TURKISH",2]="Çevrimiçi zaman"
+	enterprise_texts["HEBREW",2]="זמן מקוון"
 
 	enterprise_texts["ENGLISH",3]="On this attack, we'll wait for a network client to provide us a hash or a password for the Enterprise wifi network in our fake AP. You selected \"smooth\" mode, so as soon as one password or hash is captured, the attack will be dismantled. You can also stop it pressing [Enter] key on the main window"
 	enterprise_texts["SPANISH",3]="Con este ataque, esperaremos a que algún cliente nos de un hash o su contraseña de la red wifi Enterprise en nuestro AP falso. Has seleccionado el modo \"smooth\", por lo que tan pronto se capture un hash o contraseña, el ataque se parará. También puedes parar el ataque pulsando la tecla [Enter] en la pantalla principal"
@@ -829,6 +843,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",3]="W tym ataku poczekamy aż klient poda nam hash lub hasło do sieci wifi Enterprise w naszym fałszywym AP. W trybie \"smooth\", gdy tylko hash lub hasło zostanie przechwycone atak się zatrzyma. Możesz także zatrzymać atak naciskając klawisz [Enter] na ekranie głównym"
 	enterprise_texts["GERMAN",3]="Mit diesem Angriff werden wir darauf warten, dass uns ein Kunde einen Hash oder sein Passwort für das Enterprise WLAN-Netzwerk in unserem gefälschten AP gibt. Mit dem \"smooth\" Modus wird der Angriff sobald ein Hash oder Passwort erfasst wurde beenden. Sie können den Angriff auch durch Drücken der [Enter]-Taste auf dem Hauptbildschirm stoppen"
 	enterprise_texts["TURKISH",3]="Bu saldırı ile, bir clientin sahte AP'deki Enterprise wifi ağı için bize bir hash veya şifre vermesini bekleyeceğiz. \"smooth\" modunu seçtiniz, böylece bir hash veya şifre yakalanır yakalanmaz saldırı duracaktır. Ana ekranda [Enter] tuşuna basarak da saldırıyı durdurabilirsiniz"
+	enterprise_texts["HEBREW",3]="במתקפה זו נמתין למשתמש ברשת שיספק לנו האש או סיסמה לרשת ה- wifi הארגונית ב- AP המזויף שלנו. בחרת במצב עבודה \"חלק\", אז ברגע שסיסמה או האש יחידים ייתפסו, המתקפה תיפסק. ביכלתך לעצור אותה גם בהקשת [Enter] בחלון הראשי"
 
 	enterprise_texts["ENGLISH",4]="On this attack, we'll wait for a network client to provide us a hash or a password for the Enterprise wifi network in our fake AP. You selected \"noisy\" mode, so the attack won't stop until you press [Enter] key on the main window"
 	enterprise_texts["SPANISH",4]="Con este ataque, esperaremos a que algún cliente nos de un hash o su contraseña de la red wifi Enterprise en nuestro AP falso. Has seleccionado el modo \"noisy\", por lo que el ataque no parará hasta que pulses la tecla [Enter] en la pantalla principal"
@@ -841,6 +856,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",4]="W tym ataku poczekamy aż klient poda nam skrót lub hasło do sieci wifi Enterprise w naszym fałszywym AP. Wybrałeś tryb \"noisy\" więc atak nie zostanie zatrzymany dopóki nie naciśniesz klawisza [Enter] na głównym ekranie"
 	enterprise_texts["GERMAN",4]="Mit diesem Angriff werden wir darauf warten, dass uns ein Kunde einen Hash oder sein Passwort für das Enterprise Wi-Fi-Netzwerk in unserem gefälschten AP gibt. Sie haben den \"noisy\" Modus gewählt, der Angriff wird somit nicht stoppen, bis Sie die [Enter]-Taste auf dem Hauptbildschirm drücken"
 	enterprise_texts["TURKISH",4]="Bu saldırı ile, bir clientin sahte AP'deki Enterprise wifi ağı için bize bir hash veya şifresini vermesini bekleyeceğiz. \"noisy\" modunu seçtiniz, bu yüzden ana ekranda [Enter] tuşuna basana kadar saldırı durmayacak"
+	enterprise_texts["HEBREW",4]="במתקפה זו נמתין למשתמש ברשת שיספק לנו האש או סיסמה לרשת ה- wifi הארגונית ב- AP המזויף שלנו. בחרת במצב עבודה \"רועש\", אז המתקפה לא תיפסק עד הקשת. ביכלתך לעצור אותה גם בהקשת [Enter] בחלון הראשי"
 
 	enterprise_texts["ENGLISH",5]="Last captured user"
 	enterprise_texts["SPANISH",5]="Último usuario capturado"
@@ -853,6 +869,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",5]="Ostatni przechwycony użytkownik"
 	enterprise_texts["GERMAN",5]="Letzter erfasste Nutzer"
 	enterprise_texts["TURKISH",5]="Son yakalanan kullanıcı"
+	enterprise_texts["HEBREW",5]="המשתמש האחרון שנתפס"
 
 	enterprise_texts["ENGLISH",6]="Nothing captured yet"
 	enterprise_texts["SPANISH",6]="Aún no se ha capturado nada"
@@ -865,6 +882,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",6]="Jeszcze nic nie zostało przechwycone"
 	enterprise_texts["GERMAN",6]="Nichts wurde bisher erfasst"
 	enterprise_texts["TURKISH",6]="Henüz yakalanan bir şey yok"
+	enterprise_texts["HEBREW",6]="לא נתפס דבר עד כה"
 
 	enterprise_texts["ENGLISH",7]="Captured hashes"
 	enterprise_texts["SPANISH",7]="Hashes capturados"
@@ -877,6 +895,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",7]="Przechwycone hashe"
 	enterprise_texts["GERMAN",7]="Erfasste Hashes"
 	enterprise_texts["TURKISH",7]="Yakalanan hashler"
+	enterprise_texts["HEBREW",7]="האשים שנתפסו"
 
 	enterprise_texts["ENGLISH",8]="Captured plain text passwords"
 	enterprise_texts["SPANISH",8]="Contraseñas en texto plano capturadas"
@@ -889,6 +908,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",8]="Przechwycone hasła w tekscie jawnym"
 	enterprise_texts["GERMAN",8]="Erfasste Klartextpasswörter"
 	enterprise_texts["TURKISH",8]="Yakalanan text şifreler"
+	enterprise_texts["HEBREW",8]="סיסמאות טקסטואליות שנתפסו"
 
 	enterprise_texts["ENGLISH",9]="Press [Enter] on the main script window to continue, this window will be closed and the files will be generated"
 	enterprise_texts["SPANISH",9]="Pulsa [Enter] en la ventana principal del script para continuar, esta ventana se cerrará y los ficheros serán generados"
@@ -901,6 +921,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",9]="Wciśnij [Enter] w oknie głównym skryptu aby kontynuować, to okno zostanie zamknięte a pliki zostaną wygenerowane"
 	enterprise_texts["GERMAN",9]="Drücken Sie die [Enter]-Taste im Hauptfenster um fortzufahren. Dieses Fenster wird geschlossen und die Dateien werden generiert"
 	enterprise_texts["TURKISH",9]="Devam etmek için [Enter] tuşuna basınız, bu sayfa kapatılacaktır ve dosyalar oluşturulacak"
+	enterprise_texts["HEBREW",9]="יש להקיש [Enter] בחלון הסקריפט הראשי כדי להמשיך, חלון זה ייסגר והקבצים יווצרו"
 
 	enterprise_texts["ENGLISH",10]="The captured files will be saved on directory"
 	enterprise_texts["SPANISH",10]="Los ficheros capturados se guardarán en el directorio"
@@ -913,6 +934,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",10]="Przechwycone pliki zostaną zapisane w katalogu"
 	enterprise_texts["GERMAN",10]="Die erfassten Dateien werden im Verzeichnis gespeichert"
 	enterprise_texts["TURKISH",10]="Yakalanan dosyalar dizine kaydedilecek"
+	enterprise_texts["HEBREW",10]="הקבצים שנתפסו יישמרו בספרייה"
 
 	enterprise_texts["ENGLISH",11]="airgeddon. Captured passwords during Enterprise Evil Twin"
 	enterprise_texts["SPANISH",11]="airgeddon. Contraseñas capturadas en Evil Twin Enterprise"
@@ -925,6 +947,7 @@ function initialize_language_strings() {
 	enterprise_texts["POLISH",11]="airgeddon. Hasła przechwycone w Evil Twin Enterprise"
 	enterprise_texts["GERMAN",11]="airgeddon. Erfasste Passwörter während Evil Twin Enterprise"
 	enterprise_texts["TURKISH",11]="airgeddon. Evil Twin Enterprise'da yakalanan şifreler"
+	enterprise_texts["HEBREW",11]="airgeddon. סיסמאות שנתפסו במתקפת Evil Twin Enterprise"
 
 	declare -gA footer_texts
 	footer_texts["ENGLISH",1]="If you enjoyed the script and found it useful, you can support the project by making a donation. Through PayPal (${mail}) or sending a fraction of cryptocurrency (Bitcoin, Ethereum, Litecoin...). Any amount, no matter how small (1, 2, 5 $/€) is welcome. More information and direct links to do it at: ${urlgithub_wiki}/Contributing"
@@ -938,6 +961,7 @@ function initialize_language_strings() {
 	footer_texts["POLISH",1]="Jeśli podobał Ci się ten skrypt i okazał się użyteczny, możesz poprzeć ten projekt, składając donację. Za pośrednictwem usługi PayPal (${mail}) lub wysyłając ułamek kryptowaluty (Bitcoin, Ethereum, Litecoin...). Każda kwota, nawet malutka (1, 2, 5 $/€) będzie mile widziana. Więcej informacji i linki do donacji: ${urlgithub_wiki}/Contributing"
 	footer_texts["GERMAN",1]="Wenn Ihnen das Skript gefallen hat und Sie es nützlich fanden, können Sie das Projekt mit einer Spende unterstützen. Durch PayPal (${mail}) oder durch Senden eines Bruchteils von Kryptowährung (Bitcoin, Ethereum, Litecoin...). Jeder kleine Betrag (1, 2, 5 $/€) wird gut angenommen. Weitere Informationen und direkte Links dazu finden Sie unter: ${urlgithub_wiki}/Contributing"
 	footer_texts["TURKISH",1]="Eğer bu yazılımı kullanışlı ve eğlenceli bulduysanız, bize bağış yaparak destekte bulunabilirsiniz. PayPal üzerinden (${mail}) ya da herhangi bir kripto para birimi ile (Bitcoin, Ethereum, Litecoin...) Yolladığınız miktarın küçüklüğü fark etmez (1, 2, 5 $/€). Daha fazla fazla bilgi için linkler: ${urlgithub_wiki}/Contributing"
+	footer_texts["HEBREW",1]="אם נהנית מהסקריפט והוא שימושי בעינייך, ניתן לתמוך בפרויקט על-ידי תרומה. באמצעות PayPal (${mail}) או שליחת מטבע-קריפטו (Bitcoin, Ethereum, Litecoin...). כל סכום, לא משנה כמה קטן (1, 2, 5 $/€) יתקבל בברכה. מידע נוסף וקישורים ישירים לתרומות: ${urlgithub_wiki}/Contributing"
 
 	declare -gA arr
 	arr["ENGLISH",0]="This interface \${current_iface_on_messages} is already in managed mode"
@@ -951,6 +975,7 @@ function initialize_language_strings() {
 	arr["POLISH",0]="Ten interfejs \${current_iface_on_messages} jest już w trybie managed"
 	arr["GERMAN",0]="Diese \${current_iface_on_messages}-Schnittstelle befindet sich bereits im managed Modus"
 	arr["TURKISH",0]="Bu arayüz \${current_iface_on_messages} zaten yönetici modunda"
+	arr["HEBREW",0]="ממשק זה \${current_iface_on_messages} כבר נמצא במצב managed"
 
 	arr["ENGLISH",1]="This interface \${current_iface_on_messages} is not a wifi card. It doesn't support managed mode"
 	arr["SPANISH",1]="Esta interfaz \${current_iface_on_messages} no es una tarjeta wifi. No soporta modo managed"
@@ -963,6 +988,7 @@ function initialize_language_strings() {
 	arr["POLISH",1]="Interfejs \${current_iface_on_messages} nie jest kartą wifi. Nie obsługuje trybu zarządzania"
 	arr["GERMAN",1]="Diese \${current_iface_on_messages}-Schnittstelle ist keine wifi-Karte. Managed modus ist nicht unterstützt"
 	arr["TURKISH",1]="Bu arayüz \${current_iface_on_messages} wifi kart değildir. Yönetici modunu desteklemiyor"
+	arr["HEBREW",1]="ממשק זה \${current_iface_on_messages} אינו כרטיס wifi. הוא לא תומך במצב managed"
 
 	arr["ENGLISH",2]="English O.S. language detected. Supported by script. Automatically changed"
 	arr["SPANISH",2]="Idioma Español del S.O. detectado. Soportado por el script. Se cambió automáticamente"
@@ -975,6 +1001,7 @@ function initialize_language_strings() {
 	arr["POLISH",2]="Wykryto system operacyjny w języku Polskim. Obsługiwany przez skrypt. Zmieniono automatycznie"
 	arr["GERMAN",2]="Deutsch als Betriebssystemsprache erkannt. Vom Skript unterstützt. Sie wurde automatisch geändert"
 	arr["TURKISH",2]="Türkçe İşletim Sistemi tespit edildi. Yazılım tarafından otomatik olarak değiştirildi"
+	arr["HEBREW",2]="עברית אותרה כשפת מערכת הפעלה. השפה נתמכת בסקריפט. היא שונתה אוטומטית"
 
 	arr["ENGLISH",3]="Select target network:"
 	arr["SPANISH",3]="Selecciona la red objetivo:"
@@ -987,6 +1014,7 @@ function initialize_language_strings() {
 	arr["POLISH",3]="Wybierz sieć docelową:"
 	arr["GERMAN",3]="Wählen Sie das Zielnetzwerk aus:"
 	arr["TURKISH",3]="Hedef ağı seçiniz:"
+	arr["HEBREW",3]="נא לבחור רשת מטרה:"
 
 	arr["ENGLISH",4]="Press [Enter] key to start attack..."
 	arr["SPANISH",4]="Pulse la tecla [Enter] para comenzar el ataque..."
@@ -999,6 +1027,7 @@ function initialize_language_strings() {
 	arr["POLISH",4]="Naciśnij klawisz [Enter], aby rozpocząć atak..."
 	arr["GERMAN",4]="Drücken Sie die [Enter]-Taste um den Angriff zu starten..."
 	arr["TURKISH",4]="Saldırıya başlamak için [Enter] tuşuna basınız..."
+	arr["HEBREW",4]="יש להקיש [Enter] כדי להתחיל את המתקפה..."
 
 	arr["ENGLISH",5]="It looks like your internet connection is unstable. The script can't connect to repository. It will continue without updating..."
 	arr["SPANISH",5]="Parece que tu conexión a internet no es estable. El script no puede conectar al repositorio. Continuará sin actualizarse..."
@@ -1011,6 +1040,7 @@ function initialize_language_strings() {
 	arr["POLISH",5]="Wygląda na to, że połączenie internetowe nie jest stabilne. Skrypt nie może połączyć się z repozytorium. Będzie kontynuowany bez aktualizacji..."
 	arr["GERMAN",5]="Anscheinend ist Ihre Internetverbindung nicht stabil. Das Skript kann keine Verbindung zum Repository herstellen. Es wird ohne Aktualisierung fortgesetzt..."
 	arr["TURKISH",5]="Görünüşe göre internet bağlantınız dengesiz. Yazılım depoya bağlanamadı. Güncelleme olmadan devam edilecek..."
+	arr["HEBREW",5]="נראה שחיבור האינטרנט שלך לא יציב. הסקריפט לא יכול לגשת ל- repository. הוא ימשיך ללא עדכון..."
 
 	arr["ENGLISH",6]="Welcome to airgeddon script v\${airgeddon_version}"
 	arr["SPANISH",6]="Bienvenid@ a airgeddon script v\${airgeddon_version}"
@@ -1023,6 +1053,7 @@ function initialize_language_strings() {
 	arr["POLISH",6]="Witaj w skrypcie airgeddon v\${airgeddon_version}"
 	arr["GERMAN",6]="Willkommen bei airgeddon Skript v\${airgeddon_version}"
 	arr["TURKISH",6]="airgeddon yazılımına hoşgeldiniz v\${airgeddon_version}"
+	arr["HEBREW",6]="ברוכים הבאים לסקריפט airgeddon v\${airgeddon_version}"
 
 	arr["ENGLISH",7]="This script is only for educational purposes. Be good boyz&girlz!"
 	arr["SPANISH",7]="Este script se ha hecho sólo con fines educativos. Sed buen@s chic@s!"
@@ -1035,6 +1066,7 @@ function initialize_language_strings() {
 	arr["POLISH",7]="Ten skrypt został napisany tylko do celów edukacyjnych. Bądź grzeczny!"
 	arr["GERMAN",7]="Dieses Skript wurde nur für Bildungszwecke erstellt. Seid brav, Jungs!"
 	arr["TURKISH",7]="Bu yazılım sadece eğitim amaçlıdır. Akıllı olun çocuklar!"
+	arr["HEBREW",7]="סקריפט זה למטריות לימודיות בלבד. תהיו ילדודס טובים!"
 
 	arr["ENGLISH",8]="Known compatible distros with this script:"
 	arr["SPANISH",8]="Distros conocidas compatibles con este script:"
@@ -1047,6 +1079,7 @@ function initialize_language_strings() {
 	arr["POLISH",8]="Znane dystrybucje kompatybilne z tym skryptem:"
 	arr["GERMAN",8]="Bekannte Distros, die mit diesem Skript kompatibel sind:"
 	arr["TURKISH",8]="Bu komut dosyasıyla bilinen uyumlu dağıtımlar:"
+	arr["HEBREW",8]="הפצות ידועות בעלות תאימות לסקריפט:"
 
 	arr["ENGLISH",9]="Detecting system..."
 	arr["SPANISH",9]="Detectando sistema..."
@@ -1059,6 +1092,7 @@ function initialize_language_strings() {
 	arr["POLISH",9]="Wykrywanie systemu..."
 	arr["GERMAN",9]="Systemerkennung..."
 	arr["TURKISH",9]="Sistem tespit ediliyor..."
+	arr["HEBREW",9]="איתור מערכת..."
 
 	arr["ENGLISH",10]="This interface \${current_iface_on_messages} is already in monitor mode"
 	arr["SPANISH",10]="Esta interfaz \${current_iface_on_messages} ya está en modo monitor"
@@ -1071,6 +1105,7 @@ function initialize_language_strings() {
 	arr["POLISH",10]="Ten interfejs \${current_iface_on_messages} jest już w trybie monitorowania"
 	arr["GERMAN",10]="Diese \${current_iface_on_messages}-Schnittstelle befindet sich bereits im monitor-Modus"
 	arr["TURKISH",10]="Bu arayüz \${current_iface_on_messages} zaten izleme modunda"
+	arr["HEBREW",10]="ממשק זה \${current_iface_on_messages} כבר נמצא במצב monitor"
 
 	arr["ENGLISH",11]="Exiting airgeddon script v\${airgeddon_version} - See you soon! :)"
 	arr["SPANISH",11]="Saliendo de airgeddon script v\${airgeddon_version} - Nos vemos pronto! :)"
@@ -1083,6 +1118,7 @@ function initialize_language_strings() {
 	arr["POLISH",11]="Wyjście z skryptu airgeddon v\${airgeddon_version} - Do zobaczenia wkrótce! :)"
 	arr["GERMAN",11]="Sie verlassen airgeddon Skript v\${airgeddon_version} - Bis bald! :)"
 	arr["TURKISH",11]="airgeddon yazılımından çıkış yapılıyor v\${airgeddon_version} - Tekrar görüşürüz! :)"
+	arr["HEBREW",11]="יוצא מסקריפט airgeddon v\${airgeddon_version} - נתראה בקרוב! :)"
 
 	arr["ENGLISH",12]="\${blue_color}Interruption detected. \${green_color}Do you really want to exit? \${normal_color}\${visual_choice}"
 	arr["SPANISH",12]="\${blue_color}Detectada interrupción. \${green_color}¿Quieres realmente salir del script? \${normal_color}\${visual_choice}"
@@ -1095,6 +1131,7 @@ function initialize_language_strings() {
 	arr["POLISH",12]="\${blue_color}Wykryto przerwanie. \${green_color}Czy naprawdę chcesz wyjść ze skryptu? \${normal_color}\${visual_choice}"
 	arr["GERMAN",12]="\${blue_color}Unterbrechung wurde erkannt. \${green_color}Wollen Sie wirklich aus dem Skript raus? \${normal_color}\${visual_choice}"
 	arr["TURKISH",12]="\${blue_color}Kesinti algılandı. \${green_color}Gerçekten çıkış yapmak istiyor musunuz? \${normal_color}\${visual_choice}"
+	arr["HEBREW",12]="\${blue_color}אותרה הפרעה. \${green_color}האם באמת ברצונך לצאת? \${normal_color}\${visual_choice}"
 
 	arr["ENGLISH",13]="This interface \${current_iface_on_messages} is not a wifi card. It doesn't support monitor mode"
 	arr["SPANISH",13]="Esta interfaz \${current_iface_on_messages} no es una tarjeta wifi. No soporta modo monitor"
@@ -1107,6 +1144,7 @@ function initialize_language_strings() {
 	arr["POLISH",13]="Interfejs \${current_iface_on_messages} nie jest kartą wifi. Nie obsługuje trybu monitorowania"
 	arr["GERMAN",13]="Diese \${current_iface_on_messages}-interface ist keine WLAN-Karte. Monitor Modus ist nicht unterstützt"
 	arr["TURKISH",13]="Bu arayüz \${current_iface_on_messages} bir wifi kartı değildir. İzleme modunu desteklemiyor"
+	arr["HEBREW",13]="ממשק זה \${current_iface_on_messages} אינו כרטיס wifi. הוא לא תומך במצב monitor"
 
 	arr["ENGLISH",14]="This interface \${current_iface_on_messages} is not in monitor mode"
 	arr["SPANISH",14]="Esta interfaz \${current_iface_on_messages} no está en modo monitor"
@@ -1119,6 +1157,7 @@ function initialize_language_strings() {
 	arr["POLISH",14]="Ten interfejs \${current_iface_on_messages} nie jest w trybie monitorowania"
 	arr["GERMAN",14]="Diese \${current_iface_on_messages}-Interface befindet sich nicht im monitor Modus"
 	arr["TURKISH",14]="Bu arayüz \${current_iface_on_messages} izleme modunda değildir"
+	arr["HEBREW",14]="ממשק זה \${current_iface_on_messages} אינו במצב עבודה monitor"
 
 	arr["ENGLISH",15]="The interface changed its name while setting in managed mode. Autoselected"
 	arr["SPANISH",15]="Esta interfaz ha cambiado su nombre al ponerse en modo managed. Se ha seleccionado automáticamente"
@@ -1131,6 +1170,7 @@ function initialize_language_strings() {
 	arr["POLISH",15]="Ten interfejs zmienił nazwę w trakcie uruchamiania trybu zarządzania. Wybrany automatycznie"
 	arr["GERMAN",15]="Diese Interface hat im Managed-Modus ihren Namen geändert. Es wurde automatisch ausgewählt"
 	arr["TURKISH",15]="Arayüz ismi yönetici moduna alınırken değiştirildi. Otomatik olarak seçildi"
+	arr["HEBREW",15]="הממשק שינה שם במהלך מעבר למצב עבודה managed. הוא נבחר אוטומטית"
 
 	arr["ENGLISH",16]="Managed mode now is set on \${current_iface_on_messages}"
 	arr["SPANISH",16]="Se ha puesto el modo managed en \${current_iface_on_messages}"
@@ -1143,6 +1183,7 @@ function initialize_language_strings() {
 	arr["POLISH",16]="Tryb zarządzany został ustawiony na \${current_iface_on_messages}"
 	arr["GERMAN",16]="Der Managed-Modus wurde auf \${current_iface_on_messages} festgelegt"
 	arr["TURKISH",16]="Yönetici modu açıldı \${current_iface_on_messages}"
+	arr["HEBREW",16]="\${current_iface_on_messages} מועבר למצב עבודה managed"
 
 	arr["ENGLISH",17]="Setting your interface in managed mode..."
 	arr["SPANISH",17]="Poniendo la interfaz en modo managed..."
@@ -1155,6 +1196,7 @@ function initialize_language_strings() {
 	arr["POLISH",17]="Ustawianie interfejsu w trybie zarządzania..."
 	arr["GERMAN",17]="Interface wird zum Managed-Modus versetzt..."
 	arr["TURKISH",17]="Arayüzünüz yönetici moduna çeviriliyor..."
+	arr["HEBREW",17]="קובע את הממשק למצב עבודה managed..."
 
 	arr["ENGLISH",18]="Setting your interface in monitor mode..."
 	arr["SPANISH",18]="Poniendo la interfaz en modo monitor..."
@@ -1167,6 +1209,7 @@ function initialize_language_strings() {
 	arr["POLISH",18]="Ustawianie interfejsu w trybie monitorowania..."
 	arr["GERMAN",18]="Interface wird zum monitor-Modus versetzt..."
 	arr["TURKISH",18]="Arayüzünüz izleme moduna çeviriliyor..."
+	arr["HEBREW",18]="קובע את הממשק למצב עבודה monitor..."
 
 	arr["ENGLISH",19]="Please be patient. Maybe killing some conflicting processes..."
 	arr["SPANISH",19]="Por favor ten paciencia. Puede que esté matando algunos procesos que podrían causar conflicto..."
@@ -1179,6 +1222,7 @@ function initialize_language_strings() {
 	arr["POLISH",19]="Cierpliwości. Zakańczam procesy, które mogłyby powodować konflikty..."
 	arr["GERMAN",19]="Wir bitten um Geduld. Mögliche konfliktreiche Prozesse werden gerade gestoppt..."
 	arr["TURKISH",19]="Lütfen sabırlı olun. Bazı çelişkili süreçler sonlandırılıyor..."
+	arr["HEBREW",19]="נא להתאזר בסבלנות. ייתכן שתהליכים סותרים מסתיימים..."
 
 	arr["ENGLISH",20]="This interface \${current_iface_on_messages} doesn't support monitor mode"
 	arr["SPANISH",20]="Esta interfaz \${current_iface_on_messages} no soporta modo monitor"
@@ -1191,6 +1235,7 @@ function initialize_language_strings() {
 	arr["POLISH",20]="Interfejs \${current_iface_on_messages} nie obsługuje trybu monitorowania"
 	arr["GERMAN",20]="Diese \${current_iface_on_messages}-Interface unterstützt den monitor-Modus nicht"
 	arr["TURKISH",20]="Bu arayüz \${current_iface_on_messages} izleme modunu desteklemiyor"
+	arr["HEBREW",20]="ממשק זה \${current_iface_on_messages} אינו תומך במצב עבודה monitor"
 
 	arr["ENGLISH",21]="The interface changed its name while setting in monitor mode. Autoselected"
 	arr["SPANISH",21]="Esta interfaz ha cambiado su nombre al ponerla en modo monitor. Se ha seleccionado automáticamente"
@@ -1203,6 +1248,7 @@ function initialize_language_strings() {
 	arr["POLISH",21]="Ten interfejs zmienił nazwę w trakcie uruchamiania trybu monitorowania. Wybrany automatycznie"
 	arr["GERMAN",21]="Diese Interface hat im monitor-Modus ihren Namen geändert. Es wurde automatisch ausgewählt"
 	arr["TURKISH",21]="Arayüz, monitör moduna girerken adını değiştirdi. Otomatik olarak seçildi"
+	arr["HEBREW",21]="הממשק שינה שם במהלך מעבר למצב עבודה monitor. הוא נבחר אוטומטית"
 
 	arr["ENGLISH",22]="Monitor mode now is set on \${current_iface_on_messages}"
 	arr["SPANISH",22]="Se ha puesto el modo monitor en \${current_iface_on_messages}"
@@ -1215,6 +1261,7 @@ function initialize_language_strings() {
 	arr["POLISH",22]="Tryb monitorowania został ustawiony na \${current_iface_on_messages}"
 	arr["GERMAN",22]="Monitor-Modus wurde auf \${current_iface_on_messages} gesetzt"
 	arr["TURKISH",22]="İzleme modu açıldı \${current_iface_on_messages}"
+	arr["HEBREW",22]="\${current_iface_on_messages} מועבר למצב עבודה monitor"
 
 	arr["ENGLISH",23]="There is a problem with the selected interface. Redirecting you to script exit"
 	arr["SPANISH",23]="Hay un problema con la interfaz seleccionada. Redirigiendo a la salida del script"
@@ -1227,6 +1274,7 @@ function initialize_language_strings() {
 	arr["POLISH",23]="Wystąpił problem z wybranym interfejsem. Przekierowanie do wyjścia ze skryptu"
 	arr["GERMAN",23]="Ein Problem ist mit der ausgewählten Interface aufgetreten. Weiterleitung zur Ausgabe des Skripts"
 	arr["TURKISH",23]="Seçilen arayüz ile ilgili bir problem oluştu. Yazılımdan çıkışa yönlendiriliyorsunuz"
+	arr["HEBREW",23]="נתקלנו בבעיה עם הממשק שנבחר. מתבצעת הפניה ליציאה מהסקריפט"
 
 	arr["ENGLISH",24]="Select an interface to work with:"
 	arr["SPANISH",24]="Selecciona una interfaz para trabajar con ella:"
@@ -1239,6 +1287,7 @@ function initialize_language_strings() {
 	arr["POLISH",24]="Wybierz interfejs:"
 	arr["GERMAN",24]="Wählen Sie eine Interface aus, mit der Sie arbeiten möchten:"
 	arr["TURKISH",24]="Çalışmak için bir arayüz seçiniz:"
+	arr["HEBREW",24]="נא לבחור ממשק לעבודה:"
 
 	arr["ENGLISH",25]="Set channel (1-14):"
 	arr["SPANISH",25]="Selecciona un canal (1-14):"
@@ -1251,6 +1300,7 @@ function initialize_language_strings() {
 	arr["POLISH",25]="Wybierz kanał (1-14):"
 	arr["GERMAN",25]="Wähle einen Kanal (1-14):"
 	arr["TURKISH",25]="Kanal ayarlayınız (1-14):"
+	arr["HEBREW",25]="קביעת ערוץ (1-14):"
 
 	arr["ENGLISH",26]="Channel set to \${normal_color}\${channel}"
 	arr["SPANISH",26]="Canal elegido \${normal_color}\${channel}"
@@ -1263,6 +1313,7 @@ function initialize_language_strings() {
 	arr["POLISH",26]="Wybrany kanał \${normal_color}\${channel}"
 	arr["GERMAN",26]="Ausgewählter Kanal \${normal_color}\${channel}"
 	arr["TURKISH",26]="Kanal şu şekilde ayarlandı \${normal_color}\${channel}"
+	arr["HEBREW",26]="הערוץ נקבע ל- \${normal_color}\${channel}"
 
 	arr["ENGLISH",27]="Type target BSSID (example: 00:11:22:33:44:55):"
 	arr["SPANISH",27]="Escribe el BSSID objetivo (ejemplo: 00:11:22:33:44:55):"
@@ -1275,6 +1326,7 @@ function initialize_language_strings() {
 	arr["POLISH",27]="Wpisz BSSID celu (przykład: 00:11:22:33:44:55):"
 	arr["GERMAN",27]="Schreiben Sie die Ziel-BSSID (Beispiel: 00:11:22:33:44:55):"
 	arr["TURKISH",27]="Hedef türü BSSID (example: 00:11:22:33:44:55):"
+	arr["HEBREW",27]="נא להקיש BSSID מטרה (דוגמה: 00:11:22:33:44:55):"
 
 	arr["ENGLISH",28]="BSSID set to \${normal_color}\${bssid}"
 	arr["SPANISH",28]="BSSID elegido \${normal_color}\${bssid}"
@@ -1287,6 +1339,7 @@ function initialize_language_strings() {
 	arr["POLISH",28]="Wybrany BSSID \${normal_color}\${bssid}"
 	arr["GERMAN",28]="Gewählte BSSID \${normal_color}\${bssid}"
 	arr["TURKISH",28]="BSSID şu şekilde ayarlandı \${normal_color}\${bssid}"
+	arr["HEBREW",28]="BSSID נקבעה ל- \${normal_color}\${bssid}"
 
 	arr["ENGLISH",29]="Type target ESSID:"
 	arr["SPANISH",29]="Escribe el ESSID objetivo:"
@@ -1299,6 +1352,7 @@ function initialize_language_strings() {
 	arr["POLISH",29]="Wpisz ESSID celu:"
 	arr["GERMAN",29]="Schreiben Sie das ESSID Ziel:"
 	arr["TURKISH",29]="Hedef türü ESSID:"
+	arr["HEBREW",29]="נא להקיש ESSID מטרה:"
 
 	arr["ENGLISH",30]="You have selected a hidden network ESSID. Can't be used. Select another one or perform a BSSID based attack instead of this"
 	arr["SPANISH",30]="Has seleccionado un ESSID de red oculta. No se puede usar. Selecciona otro o ejecuta un ataque basado en BSSID en lugar de este"
@@ -1311,6 +1365,7 @@ function initialize_language_strings() {
 	arr["POLISH",30]="Wybrałeś ukrytą sieć ESSID. Nie można jej używać. Wybierz inną lub uruchom atak oparty na BSSID"
 	arr["GERMAN",30]="Sie haben ein verstecktes Netzwerk-ESSID ausgewählt. Es kann nicht verwendet werden. Wählen Sie einen anderen oder führen Sie stattdessen einen BSSID-basierenden Angriff aus"
 	arr["TURKISH",30]="Gizli bir ağ seçtiniz ESSID. Bu kullanılamaz. Bunun yerine BSSID tabanlı başka bir saldırı seçiniz"
+	arr["HEBREW",30]="בחרת ברשת ESSID של רשת סמויה, שלא ניתן לשימוש. נא לבחור אחד אחר, או לבצע מתקפה מבוססת BSSID במקום זאת"
 
 	arr["ENGLISH",31]="ESSID set to \${normal_color}\${essid}"
 	arr["SPANISH",31]="ESSID elegido \${normal_color}\${essid}"
@@ -1323,6 +1378,7 @@ function initialize_language_strings() {
 	arr["POLISH",31]="Wybrany ESSID \${normal_color}\${essid}"
 	arr["GERMAN",31]="Gewähltes ESSID \${normal_color}\${essid}"
 	arr["TURKISH",31]="ESSID şu şekilde ayarlandı \${normal_color}\${essid}"
+	arr["HEBREW",31]="ESSID נקבע ל- \${normal_color}\${essid}"
 
 	arr["ENGLISH",32]="All parameters set"
 	arr["SPANISH",32]="Todos los parámetros están listos"
@@ -1335,6 +1391,7 @@ function initialize_language_strings() {
 	arr["POLISH",32]="Wszystkie parametry są gotowe"
 	arr["GERMAN",32]="Alle Parameter eingestellt"
 	arr["TURKISH",32]="Tüm parametreler ayalandı"
+	arr["HEBREW",32]="כל הפרמטרים נקבעו"
 
 	arr["ENGLISH",33]="Starting attack. When started, press [Ctrl+C] to stop..."
 	arr["SPANISH",33]="Comenzando ataque. Una vez empezado, pulse [Ctrl+C] para pararlo..."
@@ -1347,6 +1404,7 @@ function initialize_language_strings() {
 	arr["POLISH",33]="Uruchomienie ataku. Waciśnij [Ctrl+C] w trakcie działania, aby go przerwać..."
 	arr["GERMAN",33]="Angriff starten. Einmal gestartet, drücken Sie [Ctrl+C], um es zu stoppen..."
 	arr["TURKISH",33]="Saldırı başlıyor. Başladıktan sonra, durdurmak için [Ctrl+C] basınız..."
+	arr["HEBREW",33]="המתקפה מתחילה. לאחר ההתחלה, יש להקיש [Ctrl+C] כדי לעצור..."
 
 	arr["ENGLISH",34]="Selected interface \${current_iface_on_messages} is in monitor mode. Attack can be performed"
 	arr["SPANISH",34]="La interfaz seleccionada \${current_iface_on_messages} está en modo monitor. El ataque se puede realizar"
@@ -1359,6 +1417,7 @@ function initialize_language_strings() {
 	arr["POLISH",34]="Wybrany interfejs \${current_iface_on_messages} jest w trybie monitorowania. Można wykonać atak"
 	arr["GERMAN",34]="Die ausgewählte Interface \${current_iface_on_messages} befindet sich im monitor Modus. Der Angriff kann ausgeführt werden"
 	arr["TURKISH",34]="Seçilen arayüz \${current_iface_on_messages} izleme modunda. Saldırı yapılabilir"
+	arr["HEBREW",34]="הממשק שנבחר \${current_iface_on_messages} במצב עבודה monitor. ניתן לבצע את המתקפה"
 
 	arr["ENGLISH",35]="Deauthentication / Dissasociation \${mdk_command} attack chosen (monitor mode needed)"
 	arr["SPANISH",35]="Elegido ataque de Desautenticación / Desasociación \${mdk_command} (modo monitor requerido)"
@@ -1371,6 +1430,7 @@ function initialize_language_strings() {
 	arr["POLISH",35]="Wybrano atak Deauthentication / Disassociation \${mdk_command} (wymagany tryb monitorowania)"
 	arr["GERMAN",35]="Deauthentication / Disassociation \${mdk_command} Angriff ausgewählt (monitor-Modus erforderlich)"
 	arr["TURKISH",35]="Deauthentication / Dissasociation \${mdk_command} saldırısı seçildi (izleme modu gereklidir)"
+	arr["HEBREW",35]="נבחרה מתקפת deauthentication / dissasociation \${mdk_command} (נדרש מצב עבודה monitor)"
 
 	arr["ENGLISH",36]="Deauthentication aireplay attack chosen (monitor mode needed)"
 	arr["SPANISH",36]="Elegido ataque de Desautenticación aireplay (modo monitor requerido)"
@@ -1383,6 +1443,7 @@ function initialize_language_strings() {
 	arr["POLISH",36]="Wybrano atak Deauthentication aireplay (wymagany tryb monitorowania)"
 	arr["GERMAN",36]="Airplay-Deauthentifizierungsangriff ausgewählt (monitor-Modus erforderlich)"
 	arr["TURKISH",36]="Deauthentication aireplay saldırısı seçildi (izleme modu gereklidir)"
+	arr["HEBREW",36]="נבחרה מתקפת deauthentication aireplay (נדרש מצב עבודה monitor)"
 
 	arr["ENGLISH",37]="WIDS / WIPS / WDS Confusion attack chosen (monitor mode needed)"
 	arr["SPANISH",37]="Elegido ataque Confusion WIDS / WIPS / WDS (modo monitor requerido)"
@@ -1395,6 +1456,7 @@ function initialize_language_strings() {
 	arr["POLISH",37]="Wybrano ataki typu WIDS / WIPS / WDS Confusion (wymagany tryb monitorowania)"
 	arr["GERMAN",37]="Confusion WIDS / WIPS / WDS Angriff ausgewählt (monitor-Modus erforderlich)"
 	arr["ENGLISH",37]="WIDS / WIPS / WDS Confusion saldırısı seçildi (izleme modu gereklidir)"
+	arr["HEBREW",37]="נבחרה מתקפת WIDS / WIPS / WDS Confusion (נדרש מצב עבודה monitor)"
 
 	arr["ENGLISH",38]="Beacon flood attack chosen (monitor mode needed)"
 	arr["SPANISH",38]="Elegido ataque Beacon flood (modo monitor requerido)"
@@ -1407,6 +1469,7 @@ function initialize_language_strings() {
 	arr["POLISH",38]="Wybrano atak Beacon flood (wymagany tryb monitorowania)"
 	arr["GERMAN",38]="Beacon flood Angriff ausgewählt (monitor-Modus erforderlich)"
 	arr["TURKISH",38]="Beacon flood saldırısı seçildi (izleme modu gereklidir)"
+	arr["HEBREW",38]="נבחרה מתקפת beacon flood (נדרש מצב עבודה monitor)"
 
 	arr["ENGLISH",39]="Auth DoS attack chosen (monitor mode needed)"
 	arr["SPANISH",39]="Elegido ataque Auth DoS (modo monitor requerido)"
@@ -1419,6 +1482,7 @@ function initialize_language_strings() {
 	arr["POLISH",39]="Wybrano atak DoS Auth (wymagany tryb monitorowania)"
 	arr["GERMAN",39]="Auth DoS Angriff ausgewählt (monitor-Modus erforderlich)"
 	arr["TURKISH",39]="Auth DoS saldırısı seçildi (izleme modu gereklidir)"
+	arr["HEBREW",39]="נבחרה מתקפת auth DoS (נדרש מצב עבודה monitor)"
 
 	arr["ENGLISH",40]="Michael Shutdown (TKIP) attack chosen (monitor mode needed)"
 	arr["SPANISH",40]="Elegido ataque Michael Shutdown (TKIP) (modo monitor requerido)"
@@ -1431,6 +1495,7 @@ function initialize_language_strings() {
 	arr["POLISH",40]="Wybrano atak Michael Shutdown (TKIP) (wymagany tryb monitorowania)"
 	arr["GERMAN",40]="Michael Shutdown (TKIP) Angriff ausgewählt (monitor-Modus erforderlich)"
 	arr["TURKISH",40]="Michael Shutdown (TKIP) saldırısı seçildi (izleme modu gereklidir)"
+	arr["HEBREW",40]="נבחרה מתקפת Michael Shutdown (TKIP) (נדרש מצב עבודה monitor)"
 
 	arr["ENGLISH",41]="No interface selected. You'll be redirected to select one"
 	arr["SPANISH",41]="No hay interfaz seleccionada. Serás redirigido para seleccionar una"
@@ -1443,6 +1508,7 @@ function initialize_language_strings() {
 	arr["POLISH",41]="Nie wybrano interfejsu. Zostaniesz przekierowany, aby któryś wybrać"
 	arr["GERMAN",41]="Keine Interface ausgewählt. Sie werden zur Auswahl weitergeleitet"
 	arr["TURKISH",41]="Hiçbir arayüz seçilmedi. Seçmeniz için yönlendiriliyorsunuz"
+	arr["HEBREW",41]="לא נבחר ממשק. מתצעת הפניה לצורך בחירה"
 
 	arr["ENGLISH",42]="Interface \${pink_color}\${current_iface_on_messages}\${blue_color} selected. Mode: \${pink_color}\${ifacemode}\${normal_color}"
 	arr["SPANISH",42]="Interfaz \${pink_color}\${current_iface_on_messages}\${blue_color} seleccionada. Modo: \${pink_color}\${ifacemode}\${normal_color}"
@@ -1455,6 +1521,7 @@ function initialize_language_strings() {
 	arr["POLISH",42]="Interfejs \${pink_color}\${current_iface_on_messages}\${blue_color} został wybrany. Tryb: \${pink_color}\${ifacemode}\${normal_color}"
 	arr["GERMAN",42]="Interface \${pink_color}\${current_iface_on_messages}\${blue_color} ausgewählt. Modus: \${pink_color}\${ifacemode}\${normal_color}"
 	arr["TURKISH",42]="Arayüz \${pink_color}\${current_iface_on_messages}\${blue_color} seçildi. Mod: \${pink_color}\${ifacemode}\${normal_color}"
+	arr["HEBREW",42]="נבחר ממשק \${pink_color}\${current_iface_on_messages}\${blue_color}. מצב עבודה: \${pink_color}\${ifacemode}\${normal_color}"
 
 	arr["ENGLISH",43]="Selected BSSID: \${pink_color}\${bssid}\${normal_color}"
 	arr["SPANISH",43]="BSSID seleccionado: \${pink_color}\${bssid}\${normal_color}"
@@ -1467,6 +1534,7 @@ function initialize_language_strings() {
 	arr["POLISH",43]="Wybrany BSSID: \${pink_color}\${bssid}\${normal_color}"
 	arr["GERMAN",43]="Ausgewählte BSSID: \${pink_color}\${bssid}\${normal_color}"
 	arr["TURKISH",43]="Seçildi BSSID: \${pink_color}\${bssid}\${normal_color}"
+	arr["HEBREW",43]="BSSID נבחר: \${pink_color}\${bssid}\${normal_color}"
 
 	arr["ENGLISH",44]="Selected channel: \${pink_color}\${channel}\${normal_color}"
 	arr["SPANISH",44]="Canal seleccionado: \${pink_color}\${channel}\${normal_color}"
@@ -1479,6 +1547,7 @@ function initialize_language_strings() {
 	arr["POLISH",44]="Wybrany kanał: \${pink_color}\${channel}\${normal_color}"
 	arr["GERMAN",44]="Ausgewählter Kanal: \${pink_color}\${channel}\${normal_color}"
 	arr["TURKISH",44]="Seçilen kanal: \${pink_color}\${channel}\${normal_color}"
+	arr["HEBREW",44]="ערוץ נבחר: \${pink_color}\${channel}\${normal_color}"
 
 	arr["ENGLISH",45]="Selected ESSID: \${pink_color}\${essid}\${blue_color} <- can't be used"
 	arr["SPANISH",45]="ESSID seleccionado: \${pink_color}\${essid}\${blue_color} <- no se puede usar"
@@ -1491,6 +1560,7 @@ function initialize_language_strings() {
 	arr["POLISH",45]="Wybrany ESSID: \${pink_color}\${essid}\${blue_color} <- nie można używać"
 	arr["GERMAN",45]="Ausgewähltes ESSID: \${pink_color}\${essid}\${blue_color} <- kann nicht verwendet werden"
 	arr["TURKISH",45]="Seçilen ESSID: \${pink_color}\${essid}\${blue_color} <- kullanılamaz"
+	arr["HEBREW",45]="ESSID נבחר: \${pink_color}\${essid}\${blue_color} <- לא ניתן לשימוש"
 
 	arr["ENGLISH",46]="Selected ESSID: \${pink_color}\${essid}\${normal_color}"
 	arr["SPANISH",46]="ESSID seleccionado: \${pink_color}\${essid}\${normal_color}"
@@ -1503,6 +1573,7 @@ function initialize_language_strings() {
 	arr["POLISH",46]="Wybrano ESSID: \${pink_color}\${essid}\${normal_color}"
 	arr["GERMAN",46]="Ausgewähltes ESSID: \${pink_color}\${essid}\${normal_color}"
 	arr["TURKISH",46]="Seçildi ESSID: \${pink_color}\${essid}\${normal_color}"
+	arr["HEBREW",46]="ESSID נבחר: \${pink_color}\${essid}\${normal_color}"
 
 	arr["ENGLISH",47]="Select an option from menu:"
 	arr["SPANISH",47]="Selecciona una opción del menú:"
@@ -1515,6 +1586,7 @@ function initialize_language_strings() {
 	arr["POLISH",47]="Wybierz opcję z menu:"
 	arr["GERMAN",47]="Wählen Sie eine Menüoption:"
 	arr["TURKISH",47]="Menüden bir ayar seçiniz"
+	arr["HEBREW",47]="נא לבחור אפשרות מהתפריט:"
 
 	arr["ENGLISH",48]="1.  Select another network interface"
 	arr["SPANISH",48]="1.  Selecciona otra interfaz de red"
@@ -1527,6 +1599,7 @@ function initialize_language_strings() {
 	arr["POLISH",48]="1.  Wybierz inny interfejs sieciowy"
 	arr["GERMAN",48]="1.  Wählen Sie eine andere Netzwerk-Interface"
 	arr["TURKISH",48]="1.  Başka bir ağ arayüzü seç"
+	arr["HEBREW",48]="1.  נא לבחור ממשק רשת אחר"
 
 	arr["ENGLISH",49]="4.  Explore for targets (monitor mode needed)"
 	arr["SPANISH",49]="4.  Explorar para buscar objetivos (modo monitor requerido)"
@@ -1539,6 +1612,7 @@ function initialize_language_strings() {
 	arr["POLISH",49]="4.  Skanowanie możliwych celów (wymagany tryb monitorowania)"
 	arr["GERMAN",49]="4.  Scannen, um Ziele zu finden (monitor-Modus erforderlich)"
 	arr["TURKISH",49]="4.  Hedefleri tara (izleme modu gereklidir)"
+	arr["HEBREW",49]="4.  סקירת מטרות (נדרש מצב עבודה monitor)"
 
 	arr["ENGLISH",50]="monitor mode needed for attacks"
 	arr["SPANISH",50]="modo monitor requerido en ataques"
@@ -1551,6 +1625,7 @@ function initialize_language_strings() {
 	arr["POLISH",50]="wymagany tryb monitorowania do wykonania ataku"
 	arr["GERMAN",50]="monitor-Modus bei Angriffen erforderlich"
 	arr["TURKISH",50]="saldırılar için izleme modu gereklidir"
+	arr["HEBREW",50]="נדרש מצב עבודה monitor למתקפות"
 
 	arr["ENGLISH",51]="5.  Deauth / disassoc amok \${mdk_command} attack"
 	arr["SPANISH",51]="5.  Ataque Deauth / Disassoc amok \${mdk_command}"
@@ -1563,6 +1638,7 @@ function initialize_language_strings() {
 	arr["POLISH",51]="5.  Atak Deauth / Disassoc amok \${mdk_command}"
 	arr["GERMAN",51]="5.  Deauth / Disassoc Amok \${mdk_command} Angriff"
 	arr["TURKISH",51]="5.  Deauth / disassoc amok \${mdk_command} saldırısı"
+	arr["HEBREW",51]="5.  מתקפת deauth / disassoc amok \${mdk_command}"
 
 	arr["ENGLISH",52]="6.  Deauth aireplay attack"
 	arr["SPANISH",52]="6.  Ataque Deauth aireplay"
@@ -1575,6 +1651,7 @@ function initialize_language_strings() {
 	arr["POLISH",52]="6.  Atak Deauth aireplay"
 	arr["GERMAN",52]="6.  Deauth aireplay Angriff"
 	arr["TURKISH",52]="6.  Deauth aireplay saldırısı"
+	arr["HEBREW",52]="6.  מתקפת deauth aireplay"
 
 	arr["ENGLISH",53]="7.  WIDS / WIPS / WDS Confusion attack"
 	arr["SPANISH",53]="7.  Ataque WIDS / WIPS / WDS Confusion"
@@ -1587,6 +1664,7 @@ function initialize_language_strings() {
 	arr["POLISH",53]="7.  Ataki WIDS / WIPS / WDS"
 	arr["GERMAN",53]="7.  WIDS / WIPS / WDS Confusion Angriff"
 	arr["TURKISH",53]="7.  WIDS / WIPS / WDS Confusion saldırısı"
+	arr["HEBREW",53]="7.  מתקפת WIDS / WIPS / WDS Confusion"
 
 	arr["ENGLISH",54]="old \"obsolete/non very effective\" attacks"
 	arr["SPANISH",54]="antiguos ataques \"obsoletos/no muy efectivos\""
@@ -1599,6 +1677,7 @@ function initialize_language_strings() {
 	arr["POLISH",54]="stare ataki \"przestarzałe/niezbyt skuteczne\""
 	arr["GERMAN",54]="alte Angriffe \"veraltet/nicht sehr effektiv\""
 	arr["TURKISH",54]="eski \"obsolete/non çok etkili\" saldırılar"
+	arr["HEBREW",54]="מתקפות \"מיושנות/לא יעילות\" ישנות"
 
 	arr["ENGLISH",55]="2.  Put interface in monitor mode"
 	arr["SPANISH",55]="2.  Poner la interfaz en modo monitor"
@@ -1611,6 +1690,7 @@ function initialize_language_strings() {
 	arr["POLISH",55]="2.  Uruchom interfejs w trybie monitorowania"
 	arr["GERMAN",55]="2.  Setzen Sie die Interface im monitor-Modus ein"
 	arr["TURKISH",55]="2.  Arayüzün izleme modunu aç"
+	arr["HEBREW",55]="2.  העברת ממשק למצב עבודה monitor"
 
 	arr["ENGLISH",56]="3.  Put interface in managed mode"
 	arr["SPANISH",56]="3.  Poner la interfaz en modo managed"
@@ -1623,6 +1703,7 @@ function initialize_language_strings() {
 	arr["POLISH",56]="3.  Uruchom interfejs w trybie zarządzanym"
 	arr["GERMAN",56]="3.  Setzen Sie die Interface im managed-Modus ein"
 	arr["TURKISH",56]="3.  Arayüzün yönetici modunu aç"
+	arr["HEBREW",56]="3.  העברת ממשק למצב עבודה managed"
 
 	arr["ENGLISH",57]="10. Enterprise attacks menu"
 	arr["SPANISH",57]="10. Menú de ataques Enterprise"
@@ -1635,6 +1716,7 @@ function initialize_language_strings() {
 	arr["POLISH",57]="10. Menu ataków Enterprise"
 	arr["GERMAN",57]="10. Enterprise-Angriffsmenü"
 	arr["TURKISH",57]="10. Enterprise saldırılar menüsü"
+	arr["HEBREW",57]="10. תפריט מתקפות ארגוניות"
 
 	arr["ENGLISH",58]="9.  Polish"
 	arr["SPANISH",58]="9.  Polaco"
@@ -1647,6 +1729,7 @@ function initialize_language_strings() {
 	arr["POLISH",58]="9.  Polski"
 	arr["GERMAN",58]="9.  Polnisch"
 	arr["TURKISH",58]="9.  Polish"
+	arr["HEBREW",58]="9.  פולנית"
 
 	arr["ENGLISH",59]="0.  Return to main menu"
 	arr["SPANISH",59]="0.  Volver al menú principal"
@@ -1659,6 +1742,7 @@ function initialize_language_strings() {
 	arr["POLISH",59]="0.  Wróć do menu głównego"
 	arr["GERMAN",59]="0.  Zum Hauptmenü zurück"
 	arr["TURKISH",59]="0.  Ana menüye dön"
+	arr["HEBREW",59]="0.  חזרה לתפריט הראשי"
 
 	arr["ENGLISH",60]="11. About & Credits"
 	arr["SPANISH",60]="11. Acerca de & Créditos"
@@ -1671,6 +1755,7 @@ function initialize_language_strings() {
 	arr["POLISH",60]="11. O programie & Podziękowania"
 	arr["GERMAN",60]="11. About & Credits"
 	arr["TURKISH",60]="11. Hakkında & Güven"
+	arr["HEBREW",60]="11. אודות וקרדיטים"
 
 	arr["ENGLISH",61]="0.  Exit script"
 	arr["SPANISH",61]="0.  Salir del script"
@@ -1683,6 +1768,7 @@ function initialize_language_strings() {
 	arr["POLISH",61]="0.  Zamknij skrypt"
 	arr["GERMAN",61]="0.  Skript beenden"
 	arr["TURKISH",61]="0.  Yazılımdan çıkış yap"
+	arr["HEBREW",61]="0.  יציאה מהסקריפט"
 
 	arr["ENGLISH",62]="8.  Beacon flood attack"
 	arr["SPANISH",62]="8.  Ataque Beacon flood"
@@ -1695,6 +1781,7 @@ function initialize_language_strings() {
 	arr["POLISH",62]="8.  Atak Beacon flood"
 	arr["GERMAN",62]="8.  Beacon flood Angriff"
 	arr["TURKISH",62]="8.  Beacon flood saldırısı"
+	arr["HEBREW",62]="8.  מתקפת beacon flood"
 
 	arr["ENGLISH",63]="9.  Auth DoS attack"
 	arr["SPANISH",63]="9.  Ataque Auth DoS"
@@ -1707,6 +1794,7 @@ function initialize_language_strings() {
 	arr["POLISH",63]="9.  Atak Auth DoS"
 	arr["GERMAN",63]="9.  Auth DoS Angriff"
 	arr["TURKISH",63]="9.  Auth DoS saldırısı"
+	arr["HEBREW",63]="9.  מתקפת auth DoS"
 
 	arr["ENGLISH",64]="10. Michael shutdown exploitation (TKIP) attack"
 	arr["SPANISH",64]="10. Ataque Michael shutdown exploitation (TKIP)"
@@ -1719,6 +1807,7 @@ function initialize_language_strings() {
 	arr["POLISH",64]="10. Atak Michael shutdown exploitation (TKIP)"
 	arr["GERMAN",64]="10. Michael Shutdown Exploitation Angriff (TKIP)"
 	arr["TURKISH",64]="10. Michael shutdown exploitation (TKIP) saldırısı"
+	arr["HEBREW",64]="10. מתקפת Michael shutdown exploitation (TKIP)"
 
 	arr["ENGLISH",65]="Exploring for targets option chosen (monitor mode needed)"
 	arr["SPANISH",65]="Elegida opción de exploración para buscar objetivos (modo monitor requerido)"
@@ -1731,6 +1820,7 @@ function initialize_language_strings() {
 	arr["POLISH",65]="Opcja skanowania w celu wyszukania celów wybrana (wymaga trybu monitorowania)"
 	arr["GERMAN",65]="Zielsuche ausgewählt (monitor-Modus erforderlich)"
 	arr["TURKISH",65]="Hedef tarama modu seçildi (izleme modu gereklidir)"
+	arr["HEBREW",65]="סקירת מטרות עבור האפשרות שנבחרה (נדרש מצב עבודה monitor)"
 
 	arr["ENGLISH",66]="Selected interface \${current_iface_on_messages} is in monitor mode. Exploration can be performed"
 	arr["SPANISH",66]="La interfaz seleccionada \${current_iface_on_messages} está en modo monitor. La exploración se puede realizar"
@@ -1743,6 +1833,7 @@ function initialize_language_strings() {
 	arr["POLISH",66]="Wybrany interfejs \${current_iface_on_messages} jest w trybie monitorowania. Można wykonać skanowanie"
 	arr["GERMAN",66]="Die ausgewählte Interface \${current_iface_on_messages} befindet sich im monitor-Modus. Der Scan kann durchgeführt werden"
 	arr["TURKISH",66]="Seçilen arayüz \${current_iface_on_messages} izleme modunda. Tarama gerçekleştirilebilir"
+	arr["HEBREW",66]="הממשק שנבחר \${current_iface_on_messages} במצב עבודה monitor. ניתן לבצע סקירה"
 
 	arr["ENGLISH",67]="WEP filter enabled in scan. When started, press [Ctrl+C] to stop..."
 	arr["SPANISH",67]="Filtro WEP activado en escaneo. Una vez empezado, pulse [Ctrl+C] para pararlo..."
@@ -1755,6 +1846,7 @@ function initialize_language_strings() {
 	arr["POLISH",67]="Filtr WEP aktywowany podczas skanowania. Naciśnij [Ctrl+C] w trakcie trwania, aby zatrzymać..."
 	arr["GERMAN",67]="WEP-Filter beim Scannen aktiviert. Nach den Start, drücken Sie [Ctrl+C], um es zu stoppen..."
 	arr["TURKISH",67]="WEP filtesi taraması etkin. Başladıktan sonra, durdurmak için [Ctrl+C] tuşlayınız..."
+	arr["HEBREW",67]="פילטר WEP מופעל בסריקה. לאחר ההתחלה, יש להקיש [Ctrl+C] כדי לעצור..."
 
 	arr["ENGLISH",68]="No networks found"
 	arr["SPANISH",68]="No se encontraron redes"
@@ -1767,6 +1859,7 @@ function initialize_language_strings() {
 	arr["POLISH",68]="Nie znaleziono sieci"
 	arr["GERMAN",68]="Keine Netzwerke wurden gefunden"
 	arr["TURKISH",68]="Herhangi bir ağ bulunamadı"
+	arr["HEBREW",68]="לא נמצאו רשתות"
 
 	arr["ENGLISH",69]="  N.         BSSID      CHANNEL  PWR   ENC    ESSID"
 	arr["SPANISH",69]="  N.         BSSID        CANAL  PWR   ENC    ESSID"
@@ -1779,6 +1872,7 @@ function initialize_language_strings() {
 	arr["POLISH",69]="  N.         BSSID        KANAŁ  PWR   ENC    ESSID"
 	arr["GERMAN",69]="  N.         BSSID        KANAL  PWR   ENC    ESSID"
 	arr["TURKISH",69]="  N.         BSSID      KANAL  PWR   ENC    ESSID"
+	arr["HEBREW",69]="  N.         BSSID      ערוץ  PWR   ENC    ESSID"
 
 	arr["ENGLISH",70]="Only one target detected. Autoselected"
 	arr["SPANISH",70]="Sólo un objetivo detectado. Se ha seleccionado automáticamente"
@@ -1791,6 +1885,7 @@ function initialize_language_strings() {
 	arr["POLISH",70]="Wykryto tylko jeden cel. Wybrany automatycznie"
 	arr["GERMAN",70]="Nur ein Ziel erkannt. Es wurde automatisch ausgewählt"
 	arr["TURKISH",70]="Sadece bir hedef tespit edildi. Otomatik olarak seçildi"
+	arr["HEBREW",70]="התגלתה רק מטרה אחת. היא נבחרה אוטומטית"
 
 	arr["ENGLISH",71]="(*) Network with clients"
 	arr["SPANISH",71]="(*) Red con clientes"
@@ -1803,6 +1898,7 @@ function initialize_language_strings() {
 	arr["POLISH",71]="(*) Sieć z podłączonymi klientami"
 	arr["GERMAN",71]="(*) Netzwerk mit Kunden"
 	arr["TURKISH",71]="(*) Ağ ile istemciler"
+	arr["HEBREW",71]="(*) רשתות עם משתמשים"
 
 	arr["ENGLISH",72]="Invalid target network was chosen"
 	arr["SPANISH",72]="Red objetivo elegida no válida"
@@ -1815,6 +1911,7 @@ function initialize_language_strings() {
 	arr["POLISH",72]="Wybrano nieprawidłową sieć docelową"
 	arr["GERMAN",72]="Zielnetzwerk nicht gültig"
 	arr["TURKISH",72]="Gerçersiz hedef ağ seçildi"
+	arr["HEBREW",72]="נבחרה רשת מטרה לא תקינה"
 
 	arr["ENGLISH",73]="airgeddon script v\${airgeddon_version} developed by:"
 	arr["SPANISH",73]="airgeddon script v\${airgeddon_version} programado por:"
@@ -1827,6 +1924,7 @@ function initialize_language_strings() {
 	arr["POLISH",73]="Skrypt airgeddon v\${airgeddon_version} napisany przez:"
 	arr["GERMAN",73]="airgeddon Skript v\${airgeddon_version} entwickelt von:"
 	arr["TURKISH",73]="airgeddon yazılımı v\${airgeddon_version} geliştiricisi:"
+	arr["HEBREW",73]="סקריפט airgeddon v\${airgeddon_version} פותח על-ידי:"
 
 	arr["ENGLISH",74]="This script is under GPLv3 (or later) License"
 	arr["SPANISH",74]="Este script está bajo Licencia GPLv3 (o posterior)"
@@ -1839,6 +1937,7 @@ function initialize_language_strings() {
 	arr["POLISH",74]="Ten skrypt objęty jest licencją GPLv3 (lub nowszą)"
 	arr["GERMAN",74]="Dieses Skript ist unter GPLv3 (oder höher) lizenziert"
 	arr["TURKISH",74]="Bu yazılım GPLv3 (ya da daha üstü) lisansı altındadır"
+	arr["HEBREW",74]="סקריפט זה הינו תחת רישיון GPLv3 (או חדש יותר)"
 
 	arr["ENGLISH",75]="Thanks to the \"Spanish pentesting crew\", to the \"Wifislax Staff\", to the forums people who help me, my collaborators, translators and specially to kcdtv, xpz3 and xtonousou for beta testing and support received"
 	arr["SPANISH",75]="Gracias al \"Spanish pentesting crew\", al \"Wifislax Staff\", a la gente de los foros que me ayuda, a mis colaboradores, traductores y en especial a kcdtv, xpz3 y xtonousou por el beta testing y el apoyo recibido"
@@ -1851,6 +1950,7 @@ function initialize_language_strings() {
 	arr["POLISH",75]="Podziękowania dla \"Spanish pentesting crew\", \"Wifislax Staff\", ludziom z forum którzy mi pomagają, moim współpracownikom, tłumaczom, a zwłaszcza kcdtv, xpz3 i xtonousou za testy beta i otrzymane wsparcie"
 	arr["GERMAN",75]="Danke an die \"Spanish Pentesting Crew\", an den \"Wifislax Staff\", an die Leute in den Foren, die mir helfen, an meine Mitarbeiter, Übersetzer und besonders an kcdtv, xpz3 und xtonousou für den Beta-Test und die erhaltene Unterstützung"
 	arr["TURKISH",75]="Teşekkürler \"Spanish pentesting crew\", to the \"Wifislax Staff\", to the forums people who help me, my collaborators, translators and specially to kcdtv, xpz3 and xtonousou for beta testing and support received"
+	arr["HEBREW",75]="תודות ל- \"Spanish pentesting crew\", ל- \"Wifislax Staff\", לאנשי הפורומים שעוזרים לי, למשתפי הפעולה שלי, למתרגמים ובמיוחד ל- kcdtv, xpz3 ו- xtonousou על בדיקות הבטא והתמיכה שהם נתנו"
 
 	arr["ENGLISH",76]="Invalid menu option was chosen"
 	arr["SPANISH",76]="Opción del menú no válida"
@@ -1863,6 +1963,7 @@ function initialize_language_strings() {
 	arr["POLISH",76]="Niewłaściwa opcja"
 	arr["GERMAN",76]="Ungültige Menüoption"
 	arr["TURKISH",76]="Geçersiz bir menü seçildi"
+	arr["HEBREW",76]="נבחרה אפשרות תפריט לא תקינה"
 
 	arr["ENGLISH",77]="Invalid interface was chosen"
 	arr["SPANISH",77]="Interfaz no válida"
@@ -1875,6 +1976,7 @@ function initialize_language_strings() {
 	arr["POLISH",77]="Nieprawidłowy interfejs"
 	arr["GERMAN",77]="Ungültige Interface"
 	arr["TURKISH",77]="Geçersiz bir arayüz seçildi"
+	arr["HEBREW",77]="נבחר ממשק לא תקין"
 
 	arr["ENGLISH",78]="1.  Change language"
 	arr["SPANISH",78]="1.  Cambiar idioma"
@@ -1887,6 +1989,7 @@ function initialize_language_strings() {
 	arr["POLISH",78]="1.  Zmień język"
 	arr["GERMAN",78]="1.  Sprache ändern"
 	arr["TURKISH",78]="1.  Dil değiştir"
+	arr["HEBREW",78]="1.  שינוי שפה"
 
 	arr["ENGLISH",79]="1.  English"
 	arr["SPANISH",79]="1.  Inglés"
@@ -1899,6 +2002,7 @@ function initialize_language_strings() {
 	arr["POLISH",79]="1.  Angielski"
 	arr["GERMAN",79]="1.  Englisch"
 	arr["TURKISH",79]="1.  İngilizce"
+	arr["HEBREW",79]="1.  עברית"
 
 	arr["ENGLISH",80]="2.  Spanish"
 	arr["SPANISH",80]="2.  Español"
@@ -1911,6 +2015,7 @@ function initialize_language_strings() {
 	arr["POLISH",80]="2.  Hiszpański"
 	arr["GERMAN",80]="2.  Spanisch"
 	arr["TURKISH",80]="2.  İspanyolca"
+	arr["HEBREW",80]="2.  ספרדית"
 
 	arr["ENGLISH",81]="Select a language:"
 	arr["SPANISH",81]="Selecciona un idioma:"
@@ -1923,6 +2028,7 @@ function initialize_language_strings() {
 	arr["POLISH",81]="Wybierz język:"
 	arr["GERMAN",81]="Wählen Sie eine Sprache:"
 	arr["TURKISH",81]="Bir dil seçiniz:"
+	arr["HEBREW",81]="נא לבחור שפה:"
 
 	arr["ENGLISH",82]="Invalid language was chosen"
 	arr["SPANISH",82]="Idioma no válido"
@@ -1935,6 +2041,7 @@ function initialize_language_strings() {
 	arr["POLISH",82]="Nieprawidłowy język"
 	arr["GERMAN",82]="Ungültige Sprache"
 	arr["TURKISH",82]="Yanlış bir dil seçildi"
+	arr["HEBREW",82]="נבחרה שפה לא תקינה"
 
 	#This string is special. The phrases don't mean the same intentionally
 	arr["ENGLISH",83]="Language changed to English"
@@ -1948,6 +2055,7 @@ function initialize_language_strings() {
 	arr["POLISH",83]="Zmieniono język na Polski"
 	arr["GERMAN",83]="Sprache wurde auf Deutsch geändert"
 	arr["TURKISH",83]="Dil Türkçe olarak değiştirildi"
+	arr["HEBREW",83]="השפה שונתה לעברית"
 
 	arr["ENGLISH",84]="Enterprise attacks menu"
 	arr["SPANISH",84]="Menú de ataques Enterprise"
@@ -1960,6 +2068,7 @@ function initialize_language_strings() {
 	arr["POLISH",84]="Menu ataków Enterprise"
 	arr["GERMAN",84]="Enterprise-Angriffsmenü"
 	arr["TURKISH",84]="Enterprise saldırı menüsü"
+	arr["HEBREW",84]="תפריט מתקפות ארגוניות"
 
 	arr["ENGLISH",85]="Contact us by mail, IRC, Discord, etc. More info here: \${normal_color}\${urlgithub_wiki}/Contact"
 	arr["SPANISH",85]="Contáctanos por mail, IRC, Discord, etc. Más información aquí: \${normal_color}\${urlgithub_wiki}/Contact"
@@ -1972,6 +2081,7 @@ function initialize_language_strings() {
 	arr["POLISH",85]="Skontaktuj się z nami za pośrednictwem poczty, IRC, Discord, itp. Więcej informacji tutaj: \${normal_color}\${urlgithub_wiki}/Contact"
 	arr["GERMAN",85]="Kontaktieren Sie uns per E-Mail, IRC, Discord, etc. Mehr Infos hier: \${normal_color}\${urlgithub_wiki}/Contact"
 	arr["TURKISH",85]="E-posta, IRC, Discord, vb. ile ile bize ulaşın. Daha fazla bilgi için: \${normal_color}\${urlgithub_wiki}/Contact"
+	arr["HEBREW",85]="יצירת קשר באמצעות דואר, IRC, Discord, וכו'. מידע נוסף כאן: \${normal_color}\${urlgithub_wiki}/Contact"
 
 	arr["ENGLISH",86]="Welcome"
 	arr["SPANISH",86]="Bienvenid@"
@@ -1984,6 +2094,7 @@ function initialize_language_strings() {
 	arr["POLISH",86]="Witaj"
 	arr["GERMAN",86]="Willkommen"
 	arr["TURKISH",86]="Hoşgeldiniz"
+	arr["HEBREW",86]="ברוכים הבאים"
 
 	arr["ENGLISH",87]="Change language"
 	arr["SPANISH",87]="Cambiar idioma"
@@ -1996,6 +2107,7 @@ function initialize_language_strings() {
 	arr["POLISH",87]="Zmień język"
 	arr["GERMAN",87]="Sprache ändern"
 	arr["TURKISH",87]="Dili Değiştir"
+	arr["HEBREW",87]="שינוי שפה"
 
 	arr["ENGLISH",88]="Interface selection"
 	arr["SPANISH",88]="Selección de interfaz"
@@ -2008,6 +2120,7 @@ function initialize_language_strings() {
 	arr["POLISH",88]="Wybór interfejsu"
 	arr["GERMAN",88]="Interface-Auswahl"
 	arr["TURKISH",88]="Arayüz seçimi"
+	arr["HEBREW",88]="בחירת ממשק"
 
 	arr["ENGLISH",89]="\${mdk_command} amok action"
 	arr["SPANISH",89]="Acción \${mdk_command} amok"
@@ -2020,6 +2133,7 @@ function initialize_language_strings() {
 	arr["POLISH",89]="Akcja \${mdk_command} amok"
 	arr["GERMAN",89]="\${mdk_command} amok Aktion"
 	arr["TURKISH",89]="\${mdk_command} amok etkisi"
+	arr["HEBREW",89]="\${mdk_command} מתקפת amok"
 
 	arr["ENGLISH",90]="Aireplay deauth action"
 	arr["SPANISH",90]="Acción aireplay deauth"
@@ -2032,6 +2146,7 @@ function initialize_language_strings() {
 	arr["POLISH",90]="Akcja aireplay deauth"
 	arr["GERMAN",90]="Aireplay deauth Aktion"
 	arr["TURKISH",90]="Aireplay deauth etkisi"
+	arr["HEBREW",90]="פעולת aireplay deauth"
 
 	arr["ENGLISH",91]="WIDS / WIPS / WDS confusion action"
 	arr["SPANISH",91]="Acción WIDS / WIPS / WDS confusion"
@@ -2044,6 +2159,7 @@ function initialize_language_strings() {
 	arr["POLISH",91]="Akcja WIDS / WIPS / WDS confusion"
 	arr["GERMAN",91]="WIDS / WIPS / WDS confusion Aktion"
 	arr["TURKISH",91]="WIDS / WIPS / WDS confusion etkisi"
+	arr["HEBREW",91]="פעולת WIDS / WIPS / WDS confusion"
 
 	arr["ENGLISH",92]="Beacon flood action"
 	arr["SPANISH",92]="Acción Beacon flood"
@@ -2056,6 +2172,7 @@ function initialize_language_strings() {
 	arr["POLISH",92]="Akcja Beacon flood"
 	arr["GERMAN",92]="Beacon flood Aktion"
 	arr["TURKISH",92]="Beacon flood etkisi"
+	arr["HEBREW",92]="פעולת beacon flood"
 
 	arr["ENGLISH",93]="Auth DoS action"
 	arr["SPANISH",93]="Acción Auth DoS"
@@ -2068,6 +2185,7 @@ function initialize_language_strings() {
 	arr["POLISH",93]="Akcja Auth DoS"
 	arr["GERMAN",93]="Auth DoS Aktion"
 	arr["TURKISH",93]="Auth DoS etkisi"
+	arr["HEBREW",93]="פעולת auth DoS"
 
 	arr["ENGLISH",94]="Michael Shutdown action"
 	arr["SPANISH",94]="Acción Michael Shutdown"
@@ -2080,6 +2198,7 @@ function initialize_language_strings() {
 	arr["POLISH",94]="Akcja Michael Shutdown"
 	arr["GERMAN",94]="Michael Shutdown Aktion"
 	arr["TURKISH",94]="Michael Shutdown etkisi"
+	arr["HEBREW",94]="פעולת Michael Shutdown"
 
 	arr["ENGLISH",95]="\${mdk_command} amok parameters"
 	arr["SPANISH",95]="Parámetros \${mdk_command} amok"
@@ -2092,6 +2211,7 @@ function initialize_language_strings() {
 	arr["POLISH",95]="Parametry \${mdk_command} amok"
 	arr["GERMAN",95]="\${mdk_command} amok Parameter"
 	arr["TURKISH",95]="\${mdk_command} amok parametreleri"
+	arr["HEBREW",95]="פרמטרים ל- \${mdk_command} amok"
 
 	arr["ENGLISH",96]="Aireplay deauth parameters"
 	arr["SPANISH",96]="Parámetros Aireplay deauth"
@@ -2104,6 +2224,7 @@ function initialize_language_strings() {
 	arr["POLISH",96]="Parametry Aireplay deauth"
 	arr["GERMAN",96]="Aireplay deauth Parameter"
 	arr["TURKISH",96]="Aireplay deauth parametreleri"
+	arr["HEBREW",96]="פרמטרים ל- aireplay deauth"
 
 	arr["ENGLISH",97]="WIDS / WIPS / WDS parameters"
 	arr["SPANISH",97]="Parámetros WIDS / WIPS / WDS"
@@ -2116,6 +2237,7 @@ function initialize_language_strings() {
 	arr["POLISH",97]="Parametry WIDS / WIPS / WDS"
 	arr["GERMAN",97]="WIDS / WIPS / WDS Parameter"
 	arr["TURKISH",97]="WIDS / WIPS / WDS parametreleri"
+	arr["HEBREW",97]="פרמטרים ל- WIDS / WIPS / WDS"
 
 	arr["ENGLISH",98]="Beacon flood parameters"
 	arr["SPANISH",98]="Parámetros Beacon flood"
@@ -2128,6 +2250,7 @@ function initialize_language_strings() {
 	arr["POLISH",98]="Parametry Beacon flood"
 	arr["GERMAN",98]="Beacon flood Parameter"
 	arr["TURKISH",98]="Beacon flood parametreleri"
+	arr["HEBREW",98]="פרמטרים ל- beacon flood"
 
 	arr["ENGLISH",99]="Auth DoS parameters"
 	arr["SPANISH",99]="Parámetros Auth DoS"
@@ -2140,6 +2263,7 @@ function initialize_language_strings() {
 	arr["POLISH",99]="Parametry Auth DoS"
 	arr["GERMAN",99]="Auth DoS Parameter"
 	arr["TURKISH",99]="Auth DoS parametreleri"
+	arr["HEBREW",99]="פרמטרים ל- auth DoS"
 
 	arr["ENGLISH",100]="Michael Shutdown parameters"
 	arr["SPANISH",100]="Parámetros Michael Shutdown"
@@ -2152,6 +2276,7 @@ function initialize_language_strings() {
 	arr["POLISH",100]="Parametry Michael Shutdown"
 	arr["GERMAN",100]="Michael Shutdown Parameter"
 	arr["TURKISH",100]="Michael Shutdown parametreleri"
+	arr["HEBREW",100]="פרמטרים ל- Michael Shutdown"
 
 	arr["ENGLISH",101]="airgeddon main menu"
 	arr["SPANISH",101]="Menú principal airgeddon"
@@ -2164,6 +2289,7 @@ function initialize_language_strings() {
 	arr["POLISH",101]="Menu główne airgeddon"
 	arr["GERMAN",101]="airgeddon-Hauptmenü"
 	arr["TURKISH",101]="airgeddon ana menü"
+	arr["HEBREW",101]="תפריט ראשי של airgeddon"
 
 	arr["ENGLISH",102]="DoS attacks menu"
 	arr["SPANISH",102]="Menú ataques DoS"
@@ -2176,6 +2302,7 @@ function initialize_language_strings() {
 	arr["POLISH",102]="Menu ataków DoS"
 	arr["GERMAN",102]="DoS-Angriffsmenü"
 	arr["TURKISH",102]="DoS saldırı menüsü"
+	arr["HEBREW",102]="תפריט מתקפות DoS"
 
 	arr["ENGLISH",103]="Exploring for targets"
 	arr["SPANISH",103]="Explorar para buscar objetivos"
@@ -2188,6 +2315,7 @@ function initialize_language_strings() {
 	arr["POLISH",103]="Skanowanie w poszukiwaniu celów"
 	arr["GERMAN",103]="Scans, um Ziele zu finden"
 	arr["TURKISH",103]="Hedefler taranıyor"
+	arr["HEBREW",103]="סקירת מטרות"
 
 	arr["ENGLISH",104]="Select target"
 	arr["SPANISH",104]="Seleccionar objetivo"
@@ -2200,6 +2328,7 @@ function initialize_language_strings() {
 	arr["POLISH",104]="Wybierz cel"
 	arr["GERMAN",104]="Wählen Sie das Ziel aus"
 	arr["TURKISH",104]="Hedef seçiniz"
+	arr["HEBREW",104]="בחירת מטרה"
 
 	arr["ENGLISH",105]="About & Credits"
 	arr["SPANISH",105]="Acerca de & Créditos"
@@ -2212,6 +2341,7 @@ function initialize_language_strings() {
 	arr["POLISH",105]="Informacje & Podziękowania"
 	arr["GERMAN",105]="About & Credits"
 	arr["TURKISH",105]="Hakkımızda & Güven"
+	arr["HEBREW",105]="אודות וקרדיטים"
 
 	arr["ENGLISH",106]="Exiting"
 	arr["SPANISH",106]="Saliendo"
@@ -2224,6 +2354,7 @@ function initialize_language_strings() {
 	arr["POLISH",106]="Wychodzenie"
 	arr["GERMAN",106]="Verlassen"
 	arr["TURKISH",106]="Çıkış yapılıyor"
+	arr["HEBREW",106]="יוצא"
 
 	arr["ENGLISH",107]="Join the project at \${normal_color}\${urlgithub}"
 	arr["SPANISH",107]="Únete al proyecto en \${normal_color}\${urlgithub}"
@@ -2236,6 +2367,7 @@ function initialize_language_strings() {
 	arr["POLISH",107]="Dołącz do projektu w \${normal_color}\${urlgithub}"
 	arr["GERMAN",107]="Treten Sie das Projekt in \${normal_color}\${urlgithub} \${pink_color}bei"
 	arr["TURKISH",107]="Projeye buradan katılın \${normal_color}\${urlgithub}"
+	arr["HEBREW",107]="הצטרפות לפרויקט ב- \${normal_color}\${urlgithub}"
 
 	arr["ENGLISH",108]="Let's check if you have installed what script needs"
 	arr["SPANISH",108]="Vamos a chequear si tienes instalado lo que el script requiere"
