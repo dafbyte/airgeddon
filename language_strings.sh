@@ -3264,7 +3264,7 @@ function initialize_language_strings() {
 	arr["POLISH",176]="ataki CPU, nie GPU"
 	arr["GERMAN",176]="CPU aircrack Angriffe, keine GPU"
 	arr["TURKISH",176]="aircrack CPU, GPU olmayan saldırılar"
-	arr["HEBREW",176]="aircrack CPU, מתקפות non GPU"
+	arr["HEBREW",176]="מתקפות aircrack CPU, non GPU"
 
 	arr["ENGLISH",177]="Selected captured file: \${pink_color}None\${normal_color}"
 	arr["SPANISH",177]="Fichero capturado seleccionado: \${pink_color}Ninguno\${normal_color}"
@@ -3707,6 +3707,7 @@ function initialize_language_strings() {
 	arr["POLISH",210]="Skrypt sprawdzi, czy masz dostęp do internetu i czy jest nowa wersja. Cierpliwości..."
 	arr["GERMAN",210]="Das Skript überprüft, ob Sie Zugriff auf das Internet haben, um zu sehen, ob eine neue Version existiert. Wir bitten um Geduld..."
 	arr["TURKISH",210]="Yazılım, daha yeni bir sürümü arayan internet erişimini kontrol edecektir. Lütfen sabırlı olun..."
+	arr["HEBREW",210]="הסקריפט יבדוק גישה לאינטרנט לצורך חיפוש גרסה חדשה. נא להתאזר בסבלנות..."
 
 	arr["ENGLISH",211]="It seems you have no internet access. The script can't connect to repository. It will continue without updating..."
 	arr["SPANISH",211]="Parece que no tienes conexión a internet. El script no puede conectar al repositorio. Continuará sin actualizarse..."
@@ -3719,6 +3720,7 @@ function initialize_language_strings() {
 	arr["POLISH",211]="Wygląda na to, że nie masz połączenia z internetem. Skrypt nie może połączyć się z repozytorium. Kontynuacja bez aktualizacji..."
 	arr["GERMAN",211]="Es scheint, dass Sie keine Internetverbindung haben. Das Skript kann keine Verbindung zum Repository herstellen. Es wird ohne Aktualisierung fortgesetzt..."
 	arr["TURKISH",211]="İnternet bağlantınız yok. Yazılım depoya bağlanamadı. Güncelleme olmadan devam edilecek..."
+	arr["HEBREW",211]="נראה שאין לך גישה לאינטרנט. הסקריפט לא יכול להתחבר ל- repository. הוא ימשיך ללא עדכון..."
 
 	arr["ENGLISH",212]="The script is already in the latest version. It doesn't need to be updated"
 	arr["SPANISH",212]="El script ya está en la última versión. No necesita ser actualizado"
@@ -3731,6 +3733,7 @@ function initialize_language_strings() {
 	arr["POLISH",212]="Skrypt jest już w najnowszej wersji. Nie ma potrzeby aktualizacji"
 	arr["GERMAN",212]="Das Skript ist bereits in der neuesten Version. Es muss nicht aktualisiert werden"
 	arr["TURKISH",212]="Yazılım zaten en son sürüm. Güncellemeye gerek yok"
+	arr["HEBREW",212]="הגרסה של הסקריפט היא האחרונה. אין צורך לעדכן אותה"
 
 	arr["ENGLISH",213]="A new version of the script exists (v\${airgeddon_last_version}). It will be downloaded"
 	arr["SPANISH",213]="Existe una nueva versión del script (v\${airgeddon_last_version}). Será descargada"
@@ -3743,6 +3746,7 @@ function initialize_language_strings() {
 	arr["POLISH",213]="Jest nowa wersja skryptu (v\${airgeddon_last_version}). Zostanie ona pobrana"
 	arr["GERMAN",213]="Es gibt eine neue Version des Skripts (v\${airgeddon_last_version}). Sie wird automatisch heruntergeladet"
 	arr["TURKISH",213]="Yazılımın yeni bir sürümü mevcut (v\${airgeddon_last_version}). İndirilecek"
+	arr["HEBREW",213]="קיימת גרסה חדשה של הסקריפט (v\${airgeddon_last_version}). היא תורד"
 
 	arr["ENGLISH",214]="The new version was successfully downloaded. The script will be launched again"
 	arr["SPANISH",214]="La nueva versión se ha descargado con éxito. El script se lanzará de nuevo"
@@ -3755,6 +3759,7 @@ function initialize_language_strings() {
 	arr["POLISH",214]="Nowa wersja została pobrana pomyślnie. Skrypt zostanie uruchomiony ponownie"
 	arr["GERMAN",214]="Die neue Version wurde erfolgreich heruntergeladen. Das Skript wird erneut gestartet"
 	arr["TURKISH",214]="Yeni sürüm başarıyla indirildi. Yazılım yeniden başlatılacak"
+	arr["HEBREW",214]="הגרסה החדשה הורדה בהצלחה. הסקריפט יופעל מחדש שוב"
 
 	arr["ENGLISH",215]="WPA/WPA2 passwords always has 8 as a minimum length"
 	arr["SPANISH",215]="Una contraseña WPA/WPA2 siempre tiene como mínimo una longitud de 8"
@@ -3767,6 +3772,7 @@ function initialize_language_strings() {
 	arr["POLISH",215]="Hasło WPA/WPA2 ma zawsze długość co najmniej 8 znaków"
 	arr["GERMAN",215]="Ein WPA/WPA2-Passwort hat immer eine Mindestlänge von 8"
 	arr["TURKISH",215]="WPA/WPA2 şifrelerinin her zaman minimum uzunluğu 8'dir"
+	arr["HEBREW",215]="לסיסמאות WPA/WPA2 תמיד יש אורך מינימלי של 8"
 
 	arr["ENGLISH",216]="No networks found with Handshake captured on the selected file"
 	arr["SPANISH",216]="No se encontraron redes con Handshake capturado en el fichero seleccionado"
@@ -3779,6 +3785,7 @@ function initialize_language_strings() {
 	arr["POLISH",216]="Nie znaleziono sieci z przechwyconym Handshake w wybranym pliku"
 	arr["GERMAN",216]="In der ausgewählten Datei wurden keine Netzwerke mit Handshake gefunden"
 	arr["TURKISH",216]="Seçilen dosyada yakalanan Handshake ile ağ bulunamadı"
+	arr["HEBREW",216]="לא נמצאו רשתות עם ה- Handshake שנתפסה בקובץ שנבחר"
 
 	arr["ENGLISH",217]="Only one valid target detected on file. BSSID autoselected [\${normal_color}\${bssid}\${blue_color}]"
 	arr["SPANISH",217]="Sólo un objetivo válido detectado en el fichero. Se ha seleccionado automáticamente el BSSID [\${normal_color}\${bssid}\${blue_color}]"
@@ -3791,6 +3798,7 @@ function initialize_language_strings() {
 	arr["POLISH",217]="W pliku został wykryty tylko jeden prawidłowy cel. BSSID wybrany automatycznie [\${normal_color}\${bssid}\${blue_color}]"
 	arr["GERMAN",217]="Nur ein gültiges Ziel wurde in der Datei gefunden. Die BSSID [\${normal_color}\${bssid}\${blue_color}] wurde automatisch ausgewählt"
 	arr["TURKISH",217]="Dosyada sadece bir tane geçerli hedef tespit edildi. BSSID otomatik seçildi [\${normal_color}\${bssid}\${blue_color}]"
+	arr["HEBREW",217]="נמצאה רק מטרה תקינה אחת בקובץ. BSSID נבחר אוטומטית [\${normal_color}\${bssid}\${blue_color}]"
 
 	arr["ENGLISH",218]="Optional tools: checking..."
 	arr["SPANISH",218]="Herramientas opcionales: comprobando..."
@@ -3803,6 +3811,7 @@ function initialize_language_strings() {
 	arr["POLISH",218]="Narzędzia opcjonalne: sprawdzanie..."
 	arr["GERMAN",218]="Optionale Tools: Überprüfung..."
 	arr["TURKISH",218]="İsteğe bağlı araçlar: kontrol ediliyor..."
+	arr["HEBREW",218]="כלים אופציונליים: בבדיקה..."
 
 	arr["ENGLISH",219]="Your distro has the essential tools but it hasn't some optional. The script can continue but you can't use some features. It is recommended to install missing tools"
 	arr["SPANISH",219]="Tu distro tiene las herramientas esenciales pero le faltan algunas opcionales. El script puede continuar pero no podrás utilizar algunas funcionalidades. Es recomendable instalar las herramientas que faltan"
@@ -3815,6 +3824,7 @@ function initialize_language_strings() {
 	arr["POLISH",219]="Twoja dystrybucja Linuxa ma podstawowe narzędzia, ale brakuje niektórych opcjonalnych. Skrypt może być kontynuowany, ale nie będziesz mógł używać niektórych funkcji. Zaleca się zainstalowanie brakujących narzędzi"
 	arr["GERMAN",219]="Ihre Distribution hat die wesentlichen Werkzeuge, aber einige optionale fehlen. Das Skript kann fortgesetzt werden, Sie können jedoch einige Funktionen nicht verwenden. Es empfiehlt sich, die fehlenden Tools zu installieren"
 	arr["TURKISH",219]="Dağıtımınız temel araçlara sahiptir, ancak bazı opsiyonel araçlar mevcut değildir. Yazılım devam edebilir, ancak bazı özellikleri kullanamazsınız. Eksik araçların tamamlanması tavsiye edilir"
+	arr["HEBREW",219]="להפצה שלך יש את הכלים החיוניים, אבל אין לה חלק מהאופציונליים. הסקריפט יכול להמשיך, אבל חלק מהאפשרויות לא תהיינה זמינות. מומלץ להתקין את הכלים החסרים"
 
 	arr["ENGLISH",220]="Locked menu option was chosen"
 	arr["SPANISH",220]="Opción del menú bloqueada"
@@ -3827,6 +3837,7 @@ function initialize_language_strings() {
 	arr["POLISH",220]="Opcja zablokowana"
 	arr["GERMAN",220]="Blockierte Menüoption"
 	arr["TURKISH",220]="Kilitli menü seçeneği seçildi"
+	arr["HEBREW",220]="נבחרה אפשרות של תפריט נעול"
 
 	arr["ENGLISH",221]="Accepted bash version (\${BASH_VERSION}). Minimum required version: \${minimum_bash_version_required}"
 	arr["SPANISH",221]="Versión de bash (\${BASH_VERSION}) aceptada. Mínimo requerido versión: \${minimum_bash_version_required}"
@@ -3839,6 +3850,7 @@ function initialize_language_strings() {
 	arr["POLISH",221]="Zaakceptowano wersję bash (\${BASH_VERSION}). Minimalna wymagana wersja: \${minimum_bash_version_required}"
 	arr["GERMAN",221]="Bash-Version (\${BASH_VERSION}) akzeptiert. Mindestversion erforderlich: \${minimum_bash_version_required}"
 	arr["TURKISH",221]="Kabul edilen bash sürümü (\${BASH_VERSION}). Gerekli minimum sürüm: \${minimum_bash_version_required}"
+	arr["HEBREW",221]="גרסת bash נתקבלה (\${BASH_VERSION}). גרסה מינימלית נדרשת: \${minimum_bash_version_required}"
 
 	arr["ENGLISH",222]="Insufficient bash version (\${BASH_VERSION}). Minimum required version: \${minimum_bash_version_required}"
 	arr["SPANISH",222]="Versión de bash insuficiente (\${BASH_VERSION}). Mínimo requerido versión: \${minimum_bash_version_required}"
@@ -3851,6 +3863,7 @@ function initialize_language_strings() {
 	arr["POLISH",222]="Niewystarczająca wersja bash (\${BASH_VERSION}). Minimalna wymagana wersja: \${minimum_bash_version_required}"
 	arr["GERMAN",222]="Unzureichende Bash-Version (\${BASH_VERSION}). Mindestversion erforderlich: \${minimum_bash_version_required}"
 	arr["TURKISH",222]="Yetersiz bash sürümü (\${BASH_VERSION}). Gerekli minimum sürüm: \${minimum_bash_version_required}"
+	arr["HEBREW",222]="גרסת bash לא מספיקה (\${BASH_VERSION}). גרסה מינימלית נדרשת: \${minimum_bash_version_required}"
 
 	arr["ENGLISH",223]="airgeddon needs root permissions to work. Launch the script as root user or using \"sudo\""
 	arr["SPANISH",223]="airgeddon necesita permisos de root para funcionar. Lanza el script como usuario root o usando \"sudo\""
@@ -3863,6 +3876,7 @@ function initialize_language_strings() {
 	arr["POLISH",223]="airgeddon wymaga uprawnień root do pracy. Uruchom skrypt jako root lub użyj \"sudo\""
 	arr["GERMAN",223]="airgeddon benötigt root Berechtigungen um zu arbeiten. Starten Sie das Skript als root oder mit \"sudo\""
 	arr["TURKISH",223]="airgeddon'un çalışması için root izinlerine ihtiyacı var. Yazılımı root kullanıcısı olarak veya \"sudo\" kullanarak başlat"
+	arr["HEBREW",223]="airgeddon זקוק להרשות root כדי לעבוד. יש להפעיל את הסקריפט כמשתמש root או על-ידי \"sudo\""
 
 	arr["ENGLISH",224]="The script execution continues from exactly the same point where it was"
 	arr["SPANISH",224]="El script continua su ejecución desde exactamente el mismo punto en el que estaba"
@@ -3875,6 +3889,7 @@ function initialize_language_strings() {
 	arr["POLISH",224]="Skrypt kontynuuje wykonywanie z punktu, w którym zakończyl"
 	arr["GERMAN",224]="Das Skript setzt seine Ausführung von genau dem Punkt fort, wo es war"
 	arr["TURKISH",224]="Yazılım tam olarak aynı noktadan devam eder"
+	arr["HEBREW",224]="הרצת הסקריפט ממשיכה בדיוק מאותה נקודה"
 
 	arr["ENGLISH",225]="The script can't check if there is a new version because you haven't installed update tools needed"
 	arr["SPANISH",225]="El script no puede comprobar si hay una nueva versión porque no tienes instaladas las herramientas de actualización necesarias"
@@ -3887,6 +3902,7 @@ function initialize_language_strings() {
 	arr["POLISH",225]="Skrypt nie może sprawdzić nowej wersji, ponieważ nie ma zainstalowanych niezbędnych narzędzi aktualizacji"
 	arr["GERMAN",225]="Das Skript kann nicht überprüfen, ob eine neue Version vorhanden ist, da die erforderlichen Update-Tools nicht installiert sind"
 	arr["TURKISH",225]="Yazılım, ihtiyaç duyduğunuz güncelleme araçlarını yüklemediğinden yeni bir sürüm olup olmadığını kontrol edemiyor"
+	arr["HEBREW",225]="הסקריפט לא יכול לבדוק אם יש גרסה חדשה יותר, כיוון שלא התקנת כלי עדכון הדרושים לכך"
 
 	arr["ENGLISH",226]="Update tools: checking..."
 	arr["SPANISH",226]="Herramientas de actualización: comprobando..."
@@ -3899,6 +3915,7 @@ function initialize_language_strings() {
 	arr["POLISH",226]="Narzędzia aktualizacji: sprawdzanie..."
 	arr["GERMAN",226]="Update-Tools: Überprüfung..."
 	arr["TURKISH",226]="Güncelleme araçları: kontrol ediliyor..."
+	arr["HEBREW",226]="כלי עדכון: בבדיקה..."
 
 	arr["ENGLISH",227]="Working...  "
 	arr["SPANISH",227]="Trabajando...  "
@@ -3911,6 +3928,7 @@ function initialize_language_strings() {
 	arr["POLISH",227]="Praca...  "
 	arr["GERMAN",227]="In der Arbeit...  "
 	arr["TURKISH",227]="Çalışıyor...  "
+	arr["HEBREW",227]="בעבודה...  "
 
 	arr["ENGLISH",228]="                             Developed by \${author}"
 	arr["SPANISH",228]="                             Programado por \${author}"
@@ -3923,6 +3941,7 @@ function initialize_language_strings() {
 	arr["POLISH",228]="                             Opracowany przez \${author}"
 	arr["GERMAN",228]="                             Entwickelt von \${author}"
 	arr["TURKISH",228]="                              \${author} tarafından geliştirildi"
+	arr["HEBREW",228]="                             פותח על-ידי \${author}"
 
 	arr["ENGLISH",229]="hashcat CPU, non GPU attacks"
 	arr["SPANISH",229]="ataques hashcat CPU, no GPU"
@@ -3935,6 +3954,7 @@ function initialize_language_strings() {
 	arr["POLISH",229]="ataki hashcat CPU, nie GPU"
 	arr["GERMAN",229]="CPU-hashcat-Angriffe, keine GPUs"
 	arr["TURKISH",229]="hashcat CPU, GPU olmayan saldırılar"
+	arr["HEBREW",229]="מתקפות hashcat CPU, non GPU"
 
 	arr["ENGLISH",230]="3.  (hashcat) Dictionary attack against Handshake capture file"
 	arr["SPANISH",230]="3.  (hashcat) Ataque de diccionario sobre fichero de captura Handshake"
@@ -3947,6 +3967,7 @@ function initialize_language_strings() {
 	arr["POLISH",230]="3.  (hashcat) Atak słownikowy na plik przechwytywania Handshake"
 	arr["GERMAN",230]="3.  (hashcat) Wörterbuchangriff auf die Aufnahmedatei Handshake"
 	arr["TURKISH",230]="3.  (hashcat) Yakalanan Handshake dosyasına karşı sözlük saldırısı"
+	arr["HEBREW",230]="3.  (hashcat) מתקפת מילון על קובץ תפיסה של Handshake"
 
 	arr["ENGLISH",231]="4.  (hashcat) Bruteforce attack against Handshake capture file"
 	arr["SPANISH",231]="4.  (hashcat) Ataque de fuerza bruta sobre fichero de captura Handshake"
@@ -3959,6 +3980,7 @@ function initialize_language_strings() {
 	arr["POLISH",231]="4.  (hashcat) Atak brute force na plik przechwytywania Handshake"
 	arr["GERMAN",231]="4.  (hashcat) Brute-Force-Angriff auf die Capture-Handshake-Datei"
 	arr["TURKISH",231]="4.  (hashcat) Yakalanan Handshake dosyasına karşı bruteforce saldırısı"
+	arr["HEBREW",231]="4.  (hashcat) מתקפת bruteforce על קובץ תפיסה של Handshake"
 
 	arr["ENGLISH",232]="5.  (hashcat) Rule based attack against Handshake capture file"
 	arr["SPANISH",232]="5.  (hashcat) Ataque basado en reglas sobre fichero de captura Handshake"
@@ -3971,6 +3993,7 @@ function initialize_language_strings() {
 	arr["POLISH",232]="5.  (hashcat) Atak na plik przechwytywania Handshake bazujący na regułach"
 	arr["GERMAN",232]="5.  (hashcat) Regeln-basierender Angriff gegen der Capture-Handshake-Datei"
 	arr["TURKISH",232]="5.  (hashcat) Yakalanan Handshake dosyasına karşı kural tabanlı saldırı"
+	arr["HEBREW",232]="5.  (hashcat) מתקפה מבוססת-חוקים על קובץ תפיסה של Handshake"
 
 	arr["ENGLISH",233]="Type the path to store the file or press [Enter] to accept the default proposal \${normal_color}[\${hashcat_potpath}]"
 	arr["SPANISH",233]="Escribe la ruta donde guardaremos el fichero o pulsa [Enter] para aceptar la propuesta por defecto \${normal_color}[\${hashcat_potpath}]"
@@ -3983,6 +4006,7 @@ function initialize_language_strings() {
 	arr["POLISH",233]="Wpisz ścieżkę do zapisu pliku lub naciśnij [Enter], aby zaakceptować domyślną propozycję \${normal_color}[\${hashcat_potpath}]"
 	arr["GERMAN",233]="Schreiben Sie den Pfad wo die Datei gespeichert werden soll, oder drücken Sie die [Enter], um den Standardvorschlag zu akzeptieren \${normal_color}[\${hashcat_potpath}]"
 	arr["TURKISH",233]="Dosyayı depolamak için yolu yazın veya varsayılan teklifi kabul etmek için [Enter] tuşuna basın. \${normal_color}[\${hashcat_potpath}]"
+	arr["HEBREW",233]="נא להקליד את הנתיב לשמירת הקובץ או להקיש [Enter] לברירת המחדל \${normal_color}[\${hashcat_potpath}]"
 
 	arr["ENGLISH",234]="Contratulations!! It seems the key has been decrypted"
 	arr["SPANISH",234]="Enhorabuena!! Parece que la clave ha sido descifrada"
@@ -3995,6 +4019,7 @@ function initialize_language_strings() {
 	arr["POLISH",234]="Gratulacje!! Wygląda na to, że klucz został odszyfrowany"
 	arr["GERMAN",234]="Herzlichen Glückwunsch!! Es scheint, dass der Schlüssel entschlüsselt wurde"
 	arr["TURKISH",234]="Tebrikler!! Görünüşe göre key şifresi çözüldü"
+	arr["HEBREW",234]="איחולינו!! נראה שהמפתח פוענה"
 
 	arr["ENGLISH",235]="Do you want to save the trophy file with the decrypted password? \${normal_color}\${visual_choice}"
 	arr["SPANISH",235]="¿Quieres guardar el fichero de trofeo con la clave descifrada? \${normal_color}\${visual_choice}"
@@ -4007,6 +4032,7 @@ function initialize_language_strings() {
 	arr["POLISH",235]="Czy chcesz zapisać plik trofeum przy użyciu odszyfrowanego klucza? \${normal_color}\${visual_choice}"
 	arr["GERMAN",235]="Möchten Sie die Trophäendatei mit dem entschlüsselten Schlüssel speichern? \${normal_color}\${visual_choice}"
 	arr["TURKISH",235]="Trophy dosyasını şifresi çözülmüş olarak kaydetmek istiyor musunuz? \${normal_color}\${visual_choice}"
+	arr["HEBREW",235]="האם ברצונך לשמור את קובץ הפרס עם הסיסמה המפוענחת? \${normal_color}\${visual_choice}"
 
 	arr["ENGLISH",236]="Hashcat trophy file generated successfully at [\${normal_color}\${potenteredpath}\${blue_color}]"
 	arr["SPANISH",236]="Fichero de trofeo hashcat generado con éxito en [\${normal_color}\${potenteredpath}\${blue_color}]"
@@ -4019,6 +4045,7 @@ function initialize_language_strings() {
 	arr["POLISH",236]="Plik trofeum hashcat został pomyślnie wygenerowany w [\${normal_color}\${potenteredpath}\${blue_color}]"
 	arr["GERMAN",236]="Trophäen-Datei-Hashcat erfolgreich in [\${normal_color}\${potenteredpath}\${blue_color}] generiert"
 	arr["TURKISH",236]="Hashcat trophy dosyası başarıyla şurada oluşturuldu [\${normal_color}\${potenteredpath}\${blue_color}]"
+	arr["HEBREW",236]="קובץ פרס של Hashcat נוצר בהצלחה ב- [\${normal_color}\${potenteredpath}\${blue_color}]"
 
 	arr["ENGLISH",237]="There is a problem with the files or the entered path. Make sure that ca.pem, server.pem and server.key files exist in the given path. The attack can't be performed"
 	arr["SPANISH",237]="Existe un problema con los ficheros o la ruta introducida. Asegúrate de que los ficheros ca.pem, server.pem y server.key existen en la ruta indicada. El ataque no se puede realizar"
@@ -4031,6 +4058,7 @@ function initialize_language_strings() {
 	arr["POLISH",237]="Wystąpił problem z plikami lub wprowadzoną ścieżką. Upewnij się, że pliki ca.pem, server.pem i server.key istnieją we wskazanej lokalizacji. Nie można wykonać ataku"
 	arr["GERMAN",237]="Es gibt ein Problem mit den Dateien oder dem eingegebenen Pfad. Stellen Sie sicher, dass die Dateien ca.pem, server.pem und server.key im angegebenen Pfad vorhanden sind. Der Angriff kann nicht ausgeführt werden"
 	arr["TURKISH",237]="Dosyalarda veya girilen yolda bir sorun var. ca.pem, server.pem ve server.key dosyalarının belirtilen yolda bulunduğundan emin olun. Saldırı gerçekleştirilemez"
+	arr["HEBREW",237]="יש בעיה עם הקבצים או הנתיב שהוזן. נא לוודא שהקבצים ca.pem, server.pem ו- server.key קיימים בנתיב. לא ניתן לבצע את המתקפה"
 
 	arr["ENGLISH",238]="Charset selection menu"
 	arr["SPANISH",238]="Menú de selección de juego de caracteres"
@@ -4043,6 +4071,7 @@ function initialize_language_strings() {
 	arr["POLISH",238]="Menu wyboru zestawu znaków"
 	arr["GERMAN",238]="Zeichensatz-Auswahlmenü"
 	arr["TURKISH",238]="Karakter kümesi seçim menüsü"
+	arr["HEBREW",238]="תפריט בחירת ערכת תויים"
 
 	arr["ENGLISH",239]="You already have selected a rules file during this session [\${normal_color}\${RULES}\${blue_color}]"
 	arr["SPANISH",239]="Ya tienes seleccionado un fichero de reglas en esta sesión [\${normal_color}\${RULES}\${blue_color}]"
@@ -4055,6 +4084,7 @@ function initialize_language_strings() {
 	arr["POLISH",239]="Plik reguły został już wybrany w tej sesji [\${normal_color}\${RULES}\${blue_color}]"
 	arr["GERMAN",239]="Sie haben bereits eine Regeldatei ausgewählt [\${normal_color}\${RULES}\${blue_color}]"
 	arr["TURKISH",239]="Bu oturumda zaten bir kural dosyası seçtiniz [\${normal_color}\${RULES}\${blue_color}]"
+	arr["HEBREW",239]="כבר בחרת קובץ חוקים במהלך הרצה זו [\${normal_color}\${RULES}\${blue_color}]"
 
 	arr["ENGLISH",240]="Do you want to use this already selected rules file? \${normal_color}\${visual_choice}"
 	arr["SPANISH",240]="¿Quieres utilizar este fichero de reglas ya seleccionado? \${normal_color}\${visual_choice}"
@@ -4067,6 +4097,7 @@ function initialize_language_strings() {
 	arr["POLISH",240]="Czy chcesz użyć tego już wybranego pliku reguł? \${normal_color}\${visual_choice}"
 	arr["GERMAN",240]="Möchten Sie diese ausgewählte Regeldatei verwenden? \${normal_color}\${visual_choice}"
 	arr["TURKISH",240]="Zaten seçilmiş olan kural dosyasını kullanmak istiyor musunuz? \${normal_color}\${visual_choice}"
+	arr["HEBREW",240]="האם ברצונך להשתמש בקובץ החוקים שבחרת כבר? \${normal_color}\${visual_choice}"
 
 	arr["ENGLISH",241]="The path to the rules file is valid. Script can continue..."
 	arr["SPANISH",241]="La ruta al fichero de reglas es válida. El script puede continuar..."
@@ -4079,6 +4110,7 @@ function initialize_language_strings() {
 	arr["POLISH",241]="Ścieżka do pliku reguł jest prawidłowa. Skrypt może kontynuować..."
 	arr["GERMAN",241]="Der Pfad zur Regeldatei ist gültig. Das Skript kann fortfahren..."
 	arr["TURKISH",241]="Kural dosyasının dizini doğru. Yazılım devam edebilir..."
+	arr["HEBREW",241]="הנתיב לקובץ החוקים תקין. הסקריפט יכול להמשיך..."
 
 	arr["ENGLISH",242]="Enter the path of a rules file:"
 	arr["SPANISH",242]="Introduce la ruta de un fichero de reglas:"
@@ -4091,6 +4123,7 @@ function initialize_language_strings() {
 	arr["POLISH",242]="Wprowadź ścieżkę do pliku reguł:"
 	arr["GERMAN",242]="Geben Sie den Pfad einer Regeldatei ein:"
 	arr["TURKISH",242]="Kural dosyasının dizinini girin:"
+	arr["HEBREW",242]="נא להזין את הנתיב לקובץ חוקים:"
 
 	arr["ENGLISH",243]="Selected rules file: \${pink_color}\${RULES}\${normal_color}"
 	arr["SPANISH",243]="Fichero de reglas seleccionado: \${pink_color}\${RULES}\${normal_color}"
@@ -4103,6 +4136,7 @@ function initialize_language_strings() {
 	arr["POLISH",243]="Wybrany plik reguł: \${pink_color}\${RULES}\${normal_color}"
 	arr["GERMAN",243]="Ausgewählte Regeldatei: \${pink_color}\${RULES}\${normal_color}"
 	arr["TURKISH",243]="Seçilen kural dosyası: \${pink_color}\${RULES}\${normal_color}"
+	arr["HEBREW",243]="קובץ החוקים שנבחר: \${pink_color}\${RULES}\${normal_color}"
 
 	arr["ENGLISH",244]="Rule based attacks change the words of the dictionary list according to the rules written in the rules file itself. They are very useful. Some distros has predefined rule files (Kali: /usr/share/hashcat/rules // Wifislax: /opt/hashcat/rules)"
 	arr["SPANISH",244]="Los ataques basados en reglas modifican las palabras de la lista del diccionario según las reglas escritas en el propio fichero de reglas. Son muy útiles. Algunas distros ya traen ficheros predefinidos de reglas (Kali: /usr/share/hashcat/rules // Wifislax: /opt/hashcat/rules)"
@@ -4115,6 +4149,7 @@ function initialize_language_strings() {
 	arr["POLISH",244]="Ataki bazujące na regułach modyfikują wyrazy ze słowników. Są bardzo przydatne. Niektóre dystrybucje Linuxa mają już predefiniowane pliki reguł (Kali: /usr/share/hashcat/rules // Wifislax: /opt/hashcat/rules)"
 	arr["GERMAN",244]="Regelbasierte Angriffe modifizieren die Wörter in der Wörterbuchliste gemäß den Regeln, die in der Regeldatei selbst geschrieben sind. Sie sind sehr nützlich. Einige Distributionen bringen bereits vordefinierte Regeldateien mit (Kali: /usr/share/hashcat/rules // Wifislax: /opt/hashcat/rules)"
 	arr["TURKISH",244]="Kural tabanlı saldırılar, kural listesindeki kurallara göre sözlük listesindeki kelimeleri değiştirir. Çok faydalılar. Bazı dağıtımlarda önceden tanımlanmış kural dosyaları vardır (Kali: /usr/share/hashcat/rules // Wifislax: /opt/hashcat/rules)"
+	arr["HEBREW",244]="מתקפות מבוססות חוקים משנות את המלים במילון בהתאם לחוקים הכתובים בקובץ עצמו. הן שימושיות מאוד. להפצות מסוימות יש קבצי חוקים מוגדים מראש (Kali: /usr/share/hashcat/rules // Wifislax: /opt/hashcat/rules)"
 
 	arr["ENGLISH",245]="// \${yellow_color}Chipset:\${normal_color} \${unknown_chipsetvar}"
 	arr["SPANISH",245]="// \${yellow_color}Chipset:\${normal_color} \${unknown_chipsetvar}"
@@ -4127,6 +4162,7 @@ function initialize_language_strings() {
 	arr["POLISH",245]="// \${yellow_color}Chipset:\${normal_color} \${unknown_chipsetvar}"
 	arr["GERMAN",245]="// \${yellow_color}Chipset:\${normal_color} \${unknown_chipsetvar}"
 	arr["TURKISH",245]="// \${yellow_color}Chipset:\${normal_color} \${unknown_chipsetvar}"
+	arr["HEBREW",245]="// \${yellow_color}Chipset:\${normal_color} \${unknown_chipsetvar}"
 
 	arr["ENGLISH",246]="Every time you see a text with the prefix \${cyan_color}\${pending_of_translation}\${pink_color} acronym for \"Pending of Translation\", means the translation has been automatically generated and is still pending of review"
 	arr["SPANISH",246]="Cada vez que veas un texto con el prefijo \${cyan_color}\${pending_of_translation}\${pink_color} acrónimo de \"Pending of Translation\", significa que su traducción ha sido generada automáticamente y que aún está pendiente de revisión"
@@ -4139,6 +4175,7 @@ function initialize_language_strings() {
 	arr["POLISH",246]="Za każdym razem, gdy zobaczysz tekst z symbolem \${cyan_color}\${pending_of_translation}\${pink_color} dla \"Pending of Translation\", to tłumaczenie zostało wygenerowane automatycznie i nadal oczekuje na ręczną korektę"
 	arr["GERMAN",246]="Jedes Mal, wenn Sie einen Text mit dem Präfix \${cyan_color}\${pending_of_translation}\${pink_color} Akronym für \"Pending of Translation\" sehen, bedeutet dies, dass Ihre Übersetzung automatisch erstellt wurde"
 	arr["TURKISH",246]="Every time you see a text with the prefix \${cyan_color}\${pending_of_translation}\${pink_color} acronym for \"Pending of Translation\", means the translation has been automatically generated and is still pending of review"
+	arr["HEBREW",246]="טקסט עם הקידומת \${cyan_color}\${pending_of_translation}\${pink_color} הינו קיצור של \"Pending of Translation\", משמעותו שהתרגום נוצר אוטומטית וממתין לבדיקה"
 
 	arr["ENGLISH",247]="Despite having all essential tools installed, your system uses airmon-zc instead of airmon-ng. In order to work properly you need to install ethtool and you don't have it right now. Please, install it and launch the script again"
 	arr["SPANISH",247]="A pesar de tener todas las herramientas esenciales instaladas, tu sistema usa airmon-zc en lugar de airmon-ng. Para poder funcionar necesitas tener instalado ethtool y tú no lo tienes en este momento. Por favor, instálalo y vuelve a lanzar el script"
@@ -4151,6 +4188,7 @@ function initialize_language_strings() {
 	arr["POLISH",247]="Mimo, iż zainstalowano wszystkie niezbędne narzędzia, twój system zamiast airmon-ng wykorzystuje airmon-zc. Aby móc korzystać ze skryptu, musisz zainstalować program ethtool, którego obecnie nie masz. Zainstaluj go i ponownie uruchom skrypt"
 	arr["GERMAN",247]="Obwohl alle wesentlichen Tools installiert sind, verwendet Ihr System airmon-zc anstelle von airmon-ng. Um zu arbeiten, müssen Sie ethtool installiert haben und Sie haben es zur Zeit nicht. Bitte installieren Sie es und starten Sie das Skript erneut"
 	arr["TURKISH",247]="Tüm gerekli araçlara sahip olmanıza rağmen, sisteminiz airmon-ng yerine airmon-zc kullanıyor. Düzgün çalışması için ethtool yüklemeniz gerekiyor ve şu anda ona sahip değilsiniz. Lütfen kurun ve komut dosyasını tekrar başlatın"
+	arr["HEBREW",247]="למרות שכל הכלים החיוניים הותקנו, המערכת שלך משתמשת ב- airmon-zc במקום ב- airmon-ng. כדי לעבוד בצורה תקינה, עליך להתקין ethtool ואין לך אותו כרגע. נא להתקין אותו ולהריץ מחדש את הסקריפט"
 
 	arr["ENGLISH",248]="noisy mode, non stop"
 	arr["SPANISH",248]="modo noisy, sin interrupciones"
@@ -4163,6 +4201,7 @@ function initialize_language_strings() {
 	arr["POLISH",248]="tryb noisy, bez przerw"
 	arr["GERMAN",248]="noisy-Modus, ununterbrochen"
 	arr["TURKISH",248]="noisy mod, aralıksız"
+	arr["HEBREW",248]="מצב עבודה noisy, ללא הפסקה"
 
 	arr["ENGLISH",249]="5.  Portuguese"
 	arr["SPANISH",249]="5.  Portugués"
